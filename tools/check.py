@@ -21,8 +21,8 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parent.parent
-PAGES = ["index.html", "404.html", "about-me.html", "portfolio.html", "experience.html",
-         "contact.html", "myrna-and-judith.html", "siapknow.html"]
+# Every page in the site: the home page, the notes page, the 404 page and the redirect pages.
+PAGES = sorted(p.name for p in ROOT.glob("*.html"))
 VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
 SITE = "thesetox.github.io"
 # Project sites under thesetox.github.io that other repositories publish.
