@@ -23,13 +23,10 @@
   --tag-bg: #121826;
   --tag-ink: #f3f4f0;
   /* Cover fields: each product's own identity. */
-  --sk-field: #0b0d14;
-  --sk-line: rgba(236, 238, 245, 0.16);
-  --sk-ink: #eceef4;
-  --sk-muted: #a9aebd;
-  --sk-signal: #8fb2ff;
-  --sk-accent: #e8c38a;
-  --sk-accent-ink: #1a1408;
+  --sk-field: #f4f5f8;
+  --sk-line: rgba(14, 16, 24, 0.1);
+  --sk-ink: #0e1018;
+  --sk-muted: #5c6172;
   --mj-field: #e3edd5;
   --mj-ink: #23401f;
   --mj-shadow: rgba(35, 64, 31, 0.45);
@@ -70,6 +67,9 @@
     --tag-bg: #eef1f5;
     --tag-ink: #0e131c;
     --sk-field: #06080d;
+    --sk-line: rgba(236, 238, 245, 0.16);
+    --sk-ink: #eceef4;
+    --sk-muted: #a9aebd;
     --mj-field: #1c2a19;
     --mj-ink: #d9e8cc;
     --mj-shadow: rgba(0, 0, 0, 0.55);
@@ -350,8 +350,10 @@ h1 {
 .cover { position: relative; overflow: hidden; padding: 22px; border-radius: var(--radius); }
 .cover__caption { font-size: 13.5px; font-weight: 600; }
 
-.cover--siapknow { display: grid; gap: 12px; padding: 12px 12px 14px; background: var(--sk-field); color: var(--sk-ink); }
-@media (prefers-color-scheme: dark) { .cover--siapknow { box-shadow: inset 0 0 0 1px var(--sk-line); } }
+.cover--siapknow {
+  display: grid; gap: 12px; padding: 12px 12px 14px;
+  background: var(--sk-field); color: var(--sk-ink); box-shadow: inset 0 0 0 1px var(--sk-line);
+}
 .cover--siapknow img { width: 100%; border-radius: 9px; }
 .cover--siapknow .cover__caption { text-align: center; color: var(--sk-muted); }
 
