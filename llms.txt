@@ -23,7 +23,7 @@
 ## Experience
 
 - EROAD, Mobile Engineer (June 2025 to present): Mobile Foundation team; internal Kotlin Multiplatform libraries for telemetry and shared UI; modernizing legacy Android apps toward a modular architecture; moved CI/CD from Azure DevOps to GitHub Actions; AI-assisted workflows with AGENTS.md, skills and MCP.
-- Digiplus, Senior Android Developer (October 2024 to May 2025): architected and delivered two apps for a gaming and entertainment company using native Android and Kotlin Multiplatform; introduced Jetpack Compose, Ktor, Koin and Kotlin Multiplatform.
+- Digiplus, Senior Android Developer (October 2024 to May 2025): architected two apps for a gaming and entertainment company using native Android and Kotlin Multiplatform; introduced Jetpack Compose, Ktor, Koin and Kotlin Multiplatform.
 - Accenture, Android Engineer, then Senior Android Engineer, then Android Specialist (Lead-equivalent) (February 2020 to October 2024): led more than 20 Android and embedded TV apps for an international client; delivered four Android modules; led five Android developers and mentored two engineers.
 - Yondu, Android Developer (February 2018 to November 2019): sole Android developer on an internal relationship-management app; data sync 80% faster; 10 production features; weekly releases.
 - Auspex Corp., Android Developer (April 2017 to January 2018): an offline-first Android app.
