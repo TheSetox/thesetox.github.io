@@ -1,6 +1,6 @@
 # Stephen Siapno
 
-> Mobile engineer in the Philippines who has built Android apps since 2016, works in Kotlin Multiplatform, and builds AI-first. He runs SiapKnow, an AI-first studio where AI agents plan, build, test and release real apps under his direction and approval. Its app Myrna & Judith is live on the App Store and Google Play. By day he is a Mobile Engineer at EROAD.
+> Senior Android engineer in the Philippines who builds AI-first: native Android since 2016, Kotlin Multiplatform apps and libraries today, and AI agents on every change. He runs SiapKnow, an AI-first studio where AI agents plan, build, test and release real apps under his direction and approval. Its app Myrna & Judith is live on the App Store and Google Play. By day he is a Mobile Engineer at EROAD.
 
 - Email: stephen.siapno7@gmail.com
 - Resume (PDF): https://thesetox.github.io/resources/stephen_siapno_cv.pdf
@@ -23,8 +23,8 @@
 ## Experience
 
 - EROAD, Mobile Engineer (June 2025 to present): Mobile Foundation team; internal Kotlin Multiplatform libraries for telemetry and shared UI; modernizing legacy Android apps toward a modular architecture; moved CI/CD from Azure DevOps to GitHub Actions; AI-assisted workflows with AGENTS.md, skills and MCP.
-- Digiplus, Android Developer (October 2024 to May 2025): architected and delivered two apps for a gaming and entertainment company using native Android and Kotlin Multiplatform; introduced Jetpack Compose, Ktor, Koin and Kotlin Multiplatform.
-- Accenture, Android Engineer (February 2020 to October 2024): led more than 20 Android and embedded TV apps for an international client; delivered four Android modules; led five Android developers and mentored two engineers.
+- Digiplus, Senior Android Developer (October 2024 to May 2025): architected and delivered two apps for a gaming and entertainment company using native Android and Kotlin Multiplatform; introduced Jetpack Compose, Ktor, Koin and Kotlin Multiplatform.
+- Accenture, Android Engineer, then Senior Android Engineer, then Android Specialist (Lead-equivalent) (February 2020 to October 2024): led more than 20 Android and embedded TV apps for an international client; delivered four Android modules; led five Android developers and mentored two engineers.
 - Yondu, Android Developer (February 2018 to November 2019): sole Android developer on an internal relationship-management app; data sync 80% faster; 10 production features; weekly releases.
 - Auspex Corp., Android Developer (April 2017 to January 2018): an offline-first Android app.
 - Mobext, Mobile Developer (June 2016 to April 2017): built the Bonifacio Global City iOS app from scratch in Xamarin (C#) with MVVM, in three months; maintained Android apps for McDonald's, Krispy Kreme, Yellow Cab, Pancake House and Max's Restaurant.
@@ -37,4 +37,4 @@ Kotlin, Java; Android SDK, Jetpack Compose, Kotlin Multiplatform, Compose Multip
 ## Optional
 
 - [Myrna & Judith on the home page](https://thesetox.github.io/#myrna-and-judith): store links, screenshots and the counts
-- [Earlier projects and notes](https://thesetox.github.io/notes.html): older professional projects, Kotlin Multiplatform experiments, and learning notes, kept at their original addresses.
+- [Full notes](https://thesetox.github.io/notes.html): the long version of every role since 2016, with the projects inside each (including about 20 Android TV apps and modules at Accenture), and the five Fluent and Fun Clean Architecture articles.

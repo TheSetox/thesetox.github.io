@@ -453,6 +453,34 @@ h1 {
   }
 }
 
+/* The notes page: the long version of the history, with each role's projects. */
+.notes-head h1 { font-size: clamp(2.8rem, 1.4rem + 5vw, 5rem); }
+.notes-head__lead { max-width: 44ch; }
+.notes-head__lead a, .moved a { color: var(--action); font-weight: 600; text-underline-offset: 3px; }
+.jump { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
+.jump a {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px;
+  border: 1px solid var(--rule-strong); border-radius: 999px;
+  font-size: 15px; font-weight: 600; color: var(--ink-2); text-decoration: none;
+  transition: border-color 0.2s var(--ease-out), color 0.2s var(--ease-out);
+}
+.jump a:hover { border-color: var(--ink); color: var(--ink); }
+.projects__title {
+  margin-top: 26px; font-size: 17px; font-weight: 600; letter-spacing: -0.01em;
+  scroll-margin-top: 84px;
+}
+.projects { display: grid; margin-top: 10px; max-width: 72ch; border-top: 1px solid var(--rule); }
+.project { padding: 14px 0; border-bottom: 1px solid var(--rule); }
+.project__name { font-weight: 600; }
+.project__what { margin-top: 2px; color: var(--ink-2); }
+.project__meta { margin-top: 6px; font-size: 14px; color: var(--muted); }
+.projects--compact .project { padding: 10px 0; }
+.projects--compact .project__what { font-size: 15.5px; }
+.articles { display: grid; gap: 2px; margin-top: 14px; padding-left: 1.4em; list-style: decimal; color: var(--muted); }
+.articles li::marker { font-family: var(--mono); font-size: 13px; }
+.articles .link-out { min-height: 40px; }
+.notes-writing { padding-top: 24px; border-top: 1px solid var(--rule); }
+
 /* Redirect pages and the 404 page */
 .moved { padding-top: 96px; padding-bottom: 96px; }
 .moved > p:first-child:not(.meta) { font-size: 19px; color: var(--ink-2); }

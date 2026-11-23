@@ -84,8 +84,8 @@ The user: "I want to build my website as AI-first; that is why I created siapkno
   - Star counts (29 and 13) as of Nov 2026
 - **Experience** (resume, September 2026):
   - EROAD, Mobile Engineer (June 2025 to present)
-  - Digiplus, Android Developer (October 2024 to May 2025)
-  - Accenture, Android Engineer (February 2020 to October 2024)
+  - Digiplus, Senior Android Developer (October 2024 to May 2025)
+  - Accenture, Android Engineer, then Senior Android Engineer, then Android Specialist (Lead-equivalent) (February 2020 to October 2024; the user, 2026-11-23)
   - Yondu (2018 to 2019)
   - Auspex Corp (2017 to 2018)
   - Mobext (2016 to 2017): built the Bonifacio Global City iOS app from scratch in Xamarin (C#) with MVVM, in three months; maintained consumer apps. The September resume wrongly says he rebuilt an Android app (the user's correction, 2026-11-23).
