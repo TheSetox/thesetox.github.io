@@ -485,6 +485,12 @@ Flat. Page surfaces cast no shadows; depth is tonal: the white Assets panel on p
 ### Footer
 - 14.5px Pewter; links in Slate Ink with 44px targets and underlines at 4px offset; wraps with 8px by 28px gaps.
 
+### Notes page
+- **Head:** the page title at clamp(2.8rem, 1.4rem + 5vw, 5rem), a release tag for the span it covers (2016.06 – 2026.11), a lead of at most 44ch, and a row of 44px jump pills (Strong Rule border, Slate Ink 600 15px, Navy Ink border and text on hover) to each role and to Writing.
+- **Roles and Writing:** the same dated rail, year labels, entries, tags and change lines as the home page's history, with no filter and no script.
+- **Projects:** a 17px 600 subhead (Projects I led, Other projects, Project), then a ruled list up to 72ch: the project name in 600, one line on what it does in Slate Ink, and a 14px muted line of type, role, language, architecture and libraries joined by middle dots. The compact variant tightens the padding to 10px and the description to 15.5px.
+- **Articles:** a numbered list of outward links with mono markers, then the series and playground links.
+
 ### 404 and redirect pages
 - The wrap with 96px above and below. A redirect page carries one 19px Slate Ink line with a Cobalt Action link (600) and refreshes into its home-page section. The 404 shows its status as a release tag, then the smaller display h1 and a lead.
 
