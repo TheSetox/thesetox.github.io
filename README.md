@@ -22,7 +22,8 @@ The site is hand-built: what is in this repo is what GitHub Pages serves, with n
 
 ## Updating
 
-- **The numbers** (commits, pull requests, tests, agent hours) mirror siapknow.com's record, counted on Nov 18, 2026. They are refreshed by hand only. When siapknow.com is recounted, update `index.html` and `llms.txt` to match, along with the dates beside them.
+- **The numbers** (commits, pull requests, tests, agent hours) mirror siapknow.com's record, recounted on Nov 23, 2026. They are refreshed by hand only. When siapknow.com is recounted, update `index.html` and `llms.txt` to match, along with the dates beside them.
+- **The previews**: `media/siapknow-preview-{light,dark}.webp` are siapknow.com screenshots (headless Chrome, 1440×900 at 2x, reduced motion so the counters show final numbers), with `-large` copies for the zoom. Retake them when siapknow.com changes. The Myrna & Judith `-large` screenshots come from the store kit.
 - **The resume** is `resources/stephen_siapno_cv.pdf`, exported from the owner's Google Doc (last exported Nov 23, 2026). When the doc changes, export it again and update the size and date on the Resume row in `index.html`.
 - **A new release:** add an `article.entry` to the right year in `index.html`, then a line in `llms.txt`. For a role, add its long version to `notes.html` too.
 - **The filter script:** `index.html` allows its one inline script by SHA-256 hash in the CSP. If you change the script, update the hash, or the browser will block it.

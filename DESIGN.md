@@ -461,7 +461,7 @@ Flat. Page surfaces cast no shadows; depth is tonal: the white Assets panel on p
 - **Behaviour:** pure CSS with `:has()`. A chip hides entries of other kinds and any year left empty. Work and Experience in the menu select Products and Roles; a link to a hidden release resets the filter to All.
 
 ### Shortstat lines
-- JetBrains Mono 13.5px in Pewter, counts in 600 Navy Ink, items wrapping with 4px by 18px gaps, 18px below the change lines. Each line ends with the date it was counted ("Counted Nov 18, 2026").
+- JetBrains Mono 13.5px in Pewter, counts in 600 Navy Ink, items wrapping with 4px by 18px gaps, 18px below the change lines. Each line ends with the date it was counted ("Counted Nov 23, 2026").
 
 ### Assets panel
 - **Panel:** Panel White, 1px Rule border, 14px corners, 8px padding; the title sits at 12px 12px 8px.
@@ -473,6 +473,10 @@ Flat. Page surfaces cast no shadows; depth is tonal: the white Assets panel on p
 - **Frame:** 14px corners, clipped; a centred caption, 13.5px 600, under the picture. From 1120px the cover sits beside the notes, sticky at 96px.
 - **SiapKnow:** SiapKnow Field inside a SiapKnow Hairline inset ring, padded 12px 12px 14px with 12px between its parts: a full-width screenshot of siapknow.com with 9px corners (a `<picture>` that serves the dark capture under `prefers-color-scheme: dark`), then the caption "siapknow.com" in SiapKnow Muted.
 - **Myrna & Judith:** Leaf Field, padded 26px 18px 18px with 14px between its parts: three App Store screenshots fanned from the bottom centre (the outer two at ∓5°, 0.9 scale, pulled 14% inward; the middle one on top), each 34% wide up to 156px with 16px corners and the screenshot lift; then the caption in Leaf Ink.
+
+### Zoom and lightbox
+- **Zoom links:** each cover image links to a large copy (`-large.webp`; SiapKnow's carries a dark copy in `data-zoom-dark`). The cursor is zoom-in; a 32px dark circle with a magnifier sits 8px from the bottom-right corner, shown on hover and focus, and always on touch screens. Without the script, the link simply opens the image.
+- **Lightbox:** a native `<dialog>` over a backdrop of rgba(8, 10, 14, 0.88). The image fits within 94vw (at most 1400px) and the viewport height less 150px, with 12px corners and a deep soft shadow. The alt text shows below it as a 15px caption. A 44px circular close button sits top-right; Esc, the close button or a click on the backdrop close it. It scales in from 0.96 over 0.28s, which reduced motion turns off.
 
 ### Navigation
 - **Header:** sticky, opaque Cool Paper, 1px Rule bottom edge, a 64px row with 24px gaps: the Manrope name, the section links, the small primary Resume button. Below 760px the gap tightens to 8px and the Resume pill to 14px side padding; at 380px and under the name drops to 18px.

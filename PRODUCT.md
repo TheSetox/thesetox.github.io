@@ -56,24 +56,24 @@ The user: "I want to build my website as AI-first; that is why I created siapkno
 
 ## Evidence on Hand
 
-- **SiapKnow record**, counted Nov 18, 2026 from git, GitHub and session logs, since Apr 2026:
-  - 5,341 commits across 8 repositories, 84% co-written in Claude Code
-  - 334 of 367 pull requests merged
-  - 907K lines of code, plus 128K lines of docs
-  - 6,485 automated tests in Myrna & Judith
-  - 2,057 agent hours in 47 days
-  - 1,257 sub-agent runs across 79 sessions, with up to 26 at once
+- **SiapKnow record**, recounted Nov 23, 2026 from git, GitHub and session logs, since Apr 2026. Agent hours, sessions and sub-agent runs count only the Claude Code logs still on the Mac, even when that lowers them (the user's choice, 2026-11-23):
+  - 6,281 commits across 8 repositories, 86% co-written in Claude Code
+  - 336 of 370 pull requests merged
+  - 1.1M lines of code, plus 140K lines of docs
+  - 8,118 automated tests in Myrna & Judith
+  - 1,062 agent hours
+  - 414 sub-agent runs across 39 sessions, with up to 13 at once
   - 34 Reels and films
   - 55 artifacts
 
-  Also on siapknow.com: 5 releases and 41 harness updates; the video pipeline's 32 Reels and 2 films; 291 app pull requests merged and 31 store builds.
+  Also on siapknow.com: 5 releases and 41 harness updates; the video pipeline's 32 Reels and 2 films; 292 app pull requests merged and 34 store builds.
   These numbers are refreshed by hand only, when the user asks (`siapknow-website/tools/metrics.py`).
 - **Myrna & Judith:**
   - Live on the App Store (`id6767477202`) and Google Play (`app.myrnaandjudith`): free, Android 8.0 or later.
   - Website: https://myrnaandjudith.com.
   - Built with Kotlin Multiplatform and Compose Multiplatform: offline-first, no account or backend, Firebase Analytics and Crashlytics.
   - The first production version was built in two weeks.
-  - Counts: 3,930 commits on main, 291 PRs merged, 25 modules, 31 store builds, 292K Kotlin lines.
+  - Counts (Nov 23, 2026): 5,069 commits on main, 292 PRs merged, 35 modules, 34 store builds, 385K Kotlin lines, 8,118 tests.
 - **CommitPath:** a free, offline-first Kotlin knowledge refresher with flashcards and guided lessons. It's on the App Store (`id6816756095`), its site is https://thesetox.github.io/commitpath-site/, and version 2 (AI flashcards) is in progress.
 - **MainHarness:** a portable delivery harness that turns AI agents (Codex, GitHub Copilot, Claude Code) into a disciplined team: 17 skills, 5 roles, 12 rule sets and 9 tools. The repo is private and is described publicly on siapknow.com.
 - **Toolbox:** an AI tool for developers, in progress. It has no public page.

@@ -131,9 +131,9 @@ def check_page(name: str, problems: list, anchors_cache: dict):
     for attrs, line in p.images:
         if "alt" not in attrs:
             problems.append(f"{name} line {line}: image without alt text")
-        if not (attrs.get("width") and attrs.get("height")):
+        if not (attrs.get("width") and attrs.get("height")) and "lightbox__image" not in attrs.get("class", ""):
             problems.append(f"{name} line {line}: image without width and height")
-        t = local_target(page, attrs.get("src", ""))
+        t = local_target(page, attrs["src"]) if attrs.get("src") else None
         if t and not t[0].exists():
             problems.append(f"{name} line {line}: image {attrs.get('src')} is missing")
 
