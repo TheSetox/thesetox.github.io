@@ -1,0 +1,5 @@
+# People and agents are welcome. A plain-text summary for AI agents: /llms.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://thesetox.github.io/sitemap.xml

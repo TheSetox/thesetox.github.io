@@ -1,0 +1,40 @@
+# Stephen Siapno
+
+> Senior Android engineer in the Philippines who builds AI-first: native Android since 2016, Kotlin Multiplatform apps and libraries today, and AI agents on every change. He runs SiapKnow, an AI-first studio where AI agents plan, build, test and release real apps under his direction and approval. Its app Myrna & Judith is live on the App Store and Google Play. By day he is a Mobile Engineer at EROAD.
+
+- Email: stephen.siapno7@gmail.com
+- Resume (PDF): https://thesetox.github.io/resources/stephen_siapno_cv.pdf
+- LinkedIn: https://www.linkedin.com/in/stephen-siapno/
+- GitHub: https://github.com/TheSetox
+- Studio: https://siapknow.com/
+
+## Featured work
+
+- [SiapKnow](https://siapknow.com/): an AI-first studio for apps, developer tools and films, running since April 2026. MainHarness, his delivery harness, turns AI agents into a disciplined team; parallel Claude Code sessions do the work; he approves every plan and release. Counted on Nov 23, 2026 (agent hours, sessions and sub-agent runs count only the Claude Code logs still on the machine): 6,281 commits across 8 repositories, 336 pull requests merged, 8,118 automated tests in Myrna & Judith, 1,062 agent hours, 39 sessions with up to 13 at once, and 34 Reels and films.
+- [Myrna & Judith](https://myrnaandjudith.com/): a bill and payday tracker for Filipinos ("Know what's due before payday"). Live on the [App Store](https://apps.apple.com/us/app/myrna-judith/id6767477202) and [Google Play](https://play.google.com/store/apps/details?id=app.myrnaandjudith). Kotlin Multiplatform and Compose Multiplatform, offline-first, no account or backend. Built with no manual development: 5,069 commits on main, 292 pull requests merged, 35 modules, 8,118 tests and 34 store builds (as of Nov 23, 2026). The first production version took two weeks.
+
+## Also built
+
+- [CommitPath](https://thesetox.github.io/commitpath-site/): a free, offline Kotlin knowledge refresher with flashcards and guided lessons, on the [App Store](https://apps.apple.com/ph/app/commitpath-learn-kotlin/id6816756095). Version 2, with AI flashcards, is in progress.
+- [MainHarness](https://siapknow.com/#process): a portable delivery harness (17 skills, 5 roles, 12 rule sets, 9 tools) that gives AI agents a planning contract, verified commits and human shipping gates. It runs on Codex, GitHub Copilot and Claude Code. The repository is private.
+- [KMP Sample Diagrams](https://thesetox.github.io/kmp-sample-diagrams/): editable Kotlin Multiplatform architecture diagrams and runnable Android, iOS and desktop samples ([source](https://github.com/TheSetox/kmp-sample-diagrams)).
+- [Fluent and Fun Clean Architecture](https://medium.com/@setoxsiapno/list/fluent-and-fun-clean-architecture-9ef86201becf): a five-part article series on ProAndroidDev, with a [Kotlin Multiplatform playground](https://github.com/TheSetox/KMP-Fun-Clean-Architecture).
+
+## Experience
+
+- EROAD, Mobile Engineer (June 2025 to present): Mobile Foundation team; internal Kotlin Multiplatform libraries for telemetry and shared UI; modernizing legacy Android apps toward a modular architecture; moved CI/CD from Azure DevOps to GitHub Actions; AI-assisted workflows with AGENTS.md, skills and MCP.
+- Digiplus, Senior Android Developer (October 2024 to May 2025): architected and delivered two apps for a gaming and entertainment company using native Android and Kotlin Multiplatform; introduced Jetpack Compose, Ktor, Koin and Kotlin Multiplatform.
+- Accenture, Android Engineer, then Senior Android Engineer, then Android Specialist (Lead-equivalent) (February 2020 to October 2024): led more than 20 Android and embedded TV apps for an international client; delivered four Android modules; led five Android developers and mentored two engineers.
+- Yondu, Android Developer (February 2018 to November 2019): sole Android developer on an internal relationship-management app; data sync 80% faster; 10 production features; weekly releases.
+- Auspex Corp., Android Developer (April 2017 to January 2018): an offline-first Android app.
+- Mobext, Mobile Developer (June 2016 to April 2017): built the Bonifacio Global City iOS app from scratch in Xamarin (C#) with MVVM, in three months; maintained Android apps for McDonald's, Krispy Kreme, Yellow Cab, Pancake House and Max's Restaurant.
+- Education: BS Information Technology, University of Pangasinan (PHINMA Network), 2016.
+
+## Skills
+
+Kotlin, Java; Android SDK, Jetpack Compose, Kotlin Multiplatform, Compose Multiplatform; MVVM, MVI, Clean Architecture, modular architecture; Coroutines, Flow, Koin, Hilt, Dagger, Ktor, Retrofit, OkHttp, Room, RxJava; Mockito, Espresso, Appium, MobSF, SonarQube; Gradle, GitHub Actions, Azure DevOps, Firebase, Sentry; Claude Code, Codex, GitHub Copilot, MCP.
+
+## Optional
+
+- [Myrna & Judith on the home page](https://thesetox.github.io/#myrna-and-judith): store links, screenshots and the counts
+- [Full notes](https://thesetox.github.io/notes.html): the long version of every role since 2016, with the projects inside each (including about 20 Android TV apps and modules at Accenture), and the five Fluent and Fun Clean Architecture articles.

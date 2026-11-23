@@ -1,0 +1,1173 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-23T08:41:55+00:00",
+  "title": "Design System: Stephen Siapno",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cool Paper",
+        "canonical": "#f3f4f0",
+        "tonalRamp": [
+          "oklch(15.0% 0.005 117.9)",
+          "oklch(26.4% 0.005 117.9)",
+          "oklch(37.9% 0.005 117.9)",
+          "oklch(49.3% 0.005 117.9)",
+          "oklch(60.7% 0.005 117.9)",
+          "oklch(72.1% 0.005 117.9)",
+          "oklch(83.6% 0.005 117.9)",
+          "oklch(95.0% 0.005 117.9)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Panel White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 0.0)",
+          "oklch(26.4% 0.000 0.0)",
+          "oklch(37.9% 0.000 0.0)",
+          "oklch(49.3% 0.000 0.0)",
+          "oklch(60.7% 0.000 0.0)",
+          "oklch(72.1% 0.000 0.0)",
+          "oklch(83.6% 0.000 0.0)",
+          "oklch(95.0% 0.000 0.0)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Navy Ink",
+        "canonical": "#121826",
+        "tonalRamp": [
+          "oklch(15.0% 0.029 266.1)",
+          "oklch(26.4% 0.029 266.1)",
+          "oklch(37.9% 0.029 266.1)",
+          "oklch(49.3% 0.029 266.1)",
+          "oklch(60.7% 0.029 266.1)",
+          "oklch(72.1% 0.029 266.1)",
+          "oklch(83.6% 0.029 266.1)",
+          "oklch(95.0% 0.029 266.1)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Slate Ink",
+        "canonical": "#343b4a",
+        "tonalRamp": [
+          "oklch(15.0% 0.028 265.3)",
+          "oklch(26.4% 0.028 265.3)",
+          "oklch(37.9% 0.028 265.3)",
+          "oklch(49.3% 0.028 265.3)",
+          "oklch(60.7% 0.028 265.3)",
+          "oklch(72.1% 0.028 265.3)",
+          "oklch(83.6% 0.028 265.3)",
+          "oklch(95.0% 0.028 265.3)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Pewter",
+        "canonical": "#586173",
+        "tonalRamp": [
+          "oklch(15.0% 0.031 264.2)",
+          "oklch(26.4% 0.031 264.2)",
+          "oklch(37.9% 0.031 264.2)",
+          "oklch(49.3% 0.031 264.2)",
+          "oklch(60.7% 0.031 264.2)",
+          "oklch(72.1% 0.031 264.2)",
+          "oklch(83.6% 0.031 264.2)",
+          "oklch(95.0% 0.031 264.2)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "#d9dcd3",
+        "tonalRamp": [
+          "oklch(15.0% 0.013 121.7)",
+          "oklch(26.4% 0.013 121.7)",
+          "oklch(37.9% 0.013 121.7)",
+          "oklch(49.3% 0.013 121.7)",
+          "oklch(60.7% 0.013 121.7)",
+          "oklch(72.1% 0.013 121.7)",
+          "oklch(83.6% 0.013 121.7)",
+          "oklch(95.0% 0.013 121.7)"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Strong Rule",
+        "canonical": "#b6bab0",
+        "tonalRamp": [
+          "oklch(15.0% 0.015 124.6)",
+          "oklch(26.4% 0.015 124.6)",
+          "oklch(37.9% 0.015 124.6)",
+          "oklch(49.3% 0.015 124.6)",
+          "oklch(60.7% 0.015 124.6)",
+          "oklch(72.1% 0.015 124.6)",
+          "oklch(83.6% 0.015 124.6)",
+          "oklch(95.0% 0.015 124.6)"
+        ]
+      },
+      "action": {
+        "role": "primary",
+        "displayName": "Cobalt Action",
+        "canonical": "#2d5bd7",
+        "tonalRamp": [
+          "oklch(15.0% 0.197 264.8)",
+          "oklch(26.4% 0.197 264.8)",
+          "oklch(37.9% 0.197 264.8)",
+          "oklch(49.3% 0.197 264.8)",
+          "oklch(60.7% 0.197 264.8)",
+          "oklch(72.1% 0.197 264.8)",
+          "oklch(83.6% 0.197 264.8)",
+          "oklch(95.0% 0.197 264.8)"
+        ]
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Deep Cobalt",
+        "canonical": "#2349b4",
+        "tonalRamp": [
+          "oklch(15.0% 0.175 265.0)",
+          "oklch(26.4% 0.175 265.0)",
+          "oklch(37.9% 0.175 265.0)",
+          "oklch(49.3% 0.175 265.0)",
+          "oklch(60.7% 0.175 265.0)",
+          "oklch(72.1% 0.175 265.0)",
+          "oklch(83.6% 0.175 265.0)",
+          "oklch(95.0% 0.175 265.0)"
+        ]
+      },
+      "action-ink": {
+        "role": "primary",
+        "displayName": "Action Ink",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 0.0)",
+          "oklch(26.4% 0.000 0.0)",
+          "oklch(37.9% 0.000 0.0)",
+          "oklch(49.3% 0.000 0.0)",
+          "oklch(60.7% 0.000 0.0)",
+          "oklch(72.1% 0.000 0.0)",
+          "oklch(83.6% 0.000 0.0)",
+          "oklch(95.0% 0.000 0.0)"
+        ]
+      },
+      "added": {
+        "role": "semantic",
+        "displayName": "Shipped Green",
+        "canonical": "#12733f",
+        "tonalRamp": [
+          "oklch(15.0% 0.118 153.4)",
+          "oklch(26.4% 0.118 153.4)",
+          "oklch(37.9% 0.118 153.4)",
+          "oklch(49.3% 0.118 153.4)",
+          "oklch(60.7% 0.118 153.4)",
+          "oklch(72.1% 0.118 153.4)",
+          "oklch(83.6% 0.118 153.4)",
+          "oklch(95.0% 0.118 153.4)"
+        ]
+      },
+      "added-bg": {
+        "role": "semantic",
+        "displayName": "Shipped Green Wash",
+        "canonical": "#dcefe3",
+        "tonalRamp": [
+          "oklch(15.0% 0.026 158.2)",
+          "oklch(26.4% 0.026 158.2)",
+          "oklch(37.9% 0.026 158.2)",
+          "oklch(49.3% 0.026 158.2)",
+          "oklch(60.7% 0.026 158.2)",
+          "oklch(72.1% 0.026 158.2)",
+          "oklch(83.6% 0.026 158.2)",
+          "oklch(95.0% 0.026 158.2)"
+        ]
+      },
+      "changed": {
+        "role": "semantic",
+        "displayName": "Changed Blue",
+        "canonical": "#2a55c9",
+        "tonalRamp": [
+          "oklch(15.0% 0.187 264.8)",
+          "oklch(26.4% 0.187 264.8)",
+          "oklch(37.9% 0.187 264.8)",
+          "oklch(49.3% 0.187 264.8)",
+          "oklch(60.7% 0.187 264.8)",
+          "oklch(72.1% 0.187 264.8)",
+          "oklch(83.6% 0.187 264.8)",
+          "oklch(95.0% 0.187 264.8)"
+        ]
+      },
+      "changed-bg": {
+        "role": "semantic",
+        "displayName": "Changed Blue Wash",
+        "canonical": "#e2e8fa",
+        "tonalRamp": [
+          "oklch(15.0% 0.025 271.1)",
+          "oklch(26.4% 0.025 271.1)",
+          "oklch(37.9% 0.025 271.1)",
+          "oklch(49.3% 0.025 271.1)",
+          "oklch(60.7% 0.025 271.1)",
+          "oklch(72.1% 0.025 271.1)",
+          "oklch(83.6% 0.025 271.1)",
+          "oklch(95.0% 0.025 271.1)"
+        ]
+      },
+      "progress": {
+        "role": "semantic",
+        "displayName": "Progress Amber",
+        "canonical": "#855600",
+        "tonalRamp": [
+          "oklch(15.0% 0.105 72.7)",
+          "oklch(26.4% 0.105 72.7)",
+          "oklch(37.9% 0.105 72.7)",
+          "oklch(49.3% 0.105 72.7)",
+          "oklch(60.7% 0.105 72.7)",
+          "oklch(72.1% 0.105 72.7)",
+          "oklch(83.6% 0.105 72.7)",
+          "oklch(95.0% 0.105 72.7)"
+        ]
+      },
+      "progress-bg": {
+        "role": "semantic",
+        "displayName": "Progress Amber Wash",
+        "canonical": "#f8e8c4",
+        "tonalRamp": [
+          "oklch(15.0% 0.050 86.9)",
+          "oklch(26.4% 0.050 86.9)",
+          "oklch(37.9% 0.050 86.9)",
+          "oklch(49.3% 0.050 86.9)",
+          "oklch(60.7% 0.050 86.9)",
+          "oklch(72.1% 0.050 86.9)",
+          "oklch(83.6% 0.050 86.9)",
+          "oklch(95.0% 0.050 86.9)"
+        ]
+      },
+      "tag-bg": {
+        "role": "neutral",
+        "displayName": "Tag Fill",
+        "canonical": "#121826",
+        "tonalRamp": [
+          "oklch(15.0% 0.029 266.1)",
+          "oklch(26.4% 0.029 266.1)",
+          "oklch(37.9% 0.029 266.1)",
+          "oklch(49.3% 0.029 266.1)",
+          "oklch(60.7% 0.029 266.1)",
+          "oklch(72.1% 0.029 266.1)",
+          "oklch(83.6% 0.029 266.1)",
+          "oklch(95.0% 0.029 266.1)"
+        ]
+      },
+      "tag-ink": {
+        "role": "neutral",
+        "displayName": "Tag Ink",
+        "canonical": "#f3f4f0",
+        "tonalRamp": [
+          "oklch(15.0% 0.005 117.9)",
+          "oklch(26.4% 0.005 117.9)",
+          "oklch(37.9% 0.005 117.9)",
+          "oklch(49.3% 0.005 117.9)",
+          "oklch(60.7% 0.005 117.9)",
+          "oklch(72.1% 0.005 117.9)",
+          "oklch(83.6% 0.005 117.9)",
+          "oklch(95.0% 0.005 117.9)"
+        ]
+      },
+      "sk-field": {
+        "role": "product",
+        "displayName": "SiapKnow Field",
+        "canonical": "#f4f5f8",
+        "tonalRamp": [
+          "oklch(15.0% 0.004 271.4)",
+          "oklch(26.4% 0.004 271.4)",
+          "oklch(37.9% 0.004 271.4)",
+          "oklch(49.3% 0.004 271.4)",
+          "oklch(60.7% 0.004 271.4)",
+          "oklch(72.1% 0.004 271.4)",
+          "oklch(83.6% 0.004 271.4)",
+          "oklch(95.0% 0.004 271.4)"
+        ]
+      },
+      "sk-line": {
+        "role": "product",
+        "displayName": "SiapKnow Hairline",
+        "canonical": "rgba(14, 16, 24, 0.1)"
+      },
+      "sk-ink": {
+        "role": "product",
+        "displayName": "SiapKnow Ink",
+        "canonical": "#0e1018",
+        "tonalRamp": [
+          "oklch(15.0% 0.017 273.6)",
+          "oklch(26.4% 0.017 273.6)",
+          "oklch(37.9% 0.017 273.6)",
+          "oklch(49.3% 0.017 273.6)",
+          "oklch(60.7% 0.017 273.6)",
+          "oklch(72.1% 0.017 273.6)",
+          "oklch(83.6% 0.017 273.6)",
+          "oklch(95.0% 0.017 273.6)"
+        ]
+      },
+      "sk-muted": {
+        "role": "product",
+        "displayName": "SiapKnow Muted",
+        "canonical": "#5c6172",
+        "tonalRamp": [
+          "oklch(15.0% 0.028 272.4)",
+          "oklch(26.4% 0.028 272.4)",
+          "oklch(37.9% 0.028 272.4)",
+          "oklch(49.3% 0.028 272.4)",
+          "oklch(60.7% 0.028 272.4)",
+          "oklch(72.1% 0.028 272.4)",
+          "oklch(83.6% 0.028 272.4)",
+          "oklch(95.0% 0.028 272.4)"
+        ]
+      },
+      "mj-field": {
+        "role": "product",
+        "displayName": "Leaf Field",
+        "canonical": "#e3edd5",
+        "tonalRamp": [
+          "oklch(15.0% 0.034 125.5)",
+          "oklch(26.4% 0.034 125.5)",
+          "oklch(37.9% 0.034 125.5)",
+          "oklch(49.3% 0.034 125.5)",
+          "oklch(60.7% 0.034 125.5)",
+          "oklch(72.1% 0.034 125.5)",
+          "oklch(83.6% 0.034 125.5)",
+          "oklch(95.0% 0.034 125.5)"
+        ]
+      },
+      "mj-ink": {
+        "role": "product",
+        "displayName": "Leaf Ink",
+        "canonical": "#23401f",
+        "tonalRamp": [
+          "oklch(15.0% 0.066 141.4)",
+          "oklch(26.4% 0.066 141.4)",
+          "oklch(37.9% 0.066 141.4)",
+          "oklch(49.3% 0.066 141.4)",
+          "oklch(60.7% 0.066 141.4)",
+          "oklch(72.1% 0.066 141.4)",
+          "oklch(83.6% 0.066 141.4)",
+          "oklch(95.0% 0.066 141.4)"
+        ]
+      },
+      "mj-shadow": {
+        "role": "product",
+        "displayName": "Leaf Shadow",
+        "canonical": "rgba(35, 64, 31, 0.45)"
+      },
+      "band": {
+        "role": "neutral",
+        "displayName": "Inverted Band",
+        "canonical": "#121826",
+        "tonalRamp": [
+          "oklch(15.0% 0.029 266.1)",
+          "oklch(26.4% 0.029 266.1)",
+          "oklch(37.9% 0.029 266.1)",
+          "oklch(49.3% 0.029 266.1)",
+          "oklch(60.7% 0.029 266.1)",
+          "oklch(72.1% 0.029 266.1)",
+          "oklch(83.6% 0.029 266.1)",
+          "oklch(95.0% 0.029 266.1)"
+        ]
+      },
+      "band-ink": {
+        "role": "neutral",
+        "displayName": "Band Ink",
+        "canonical": "#f3f4f0",
+        "tonalRamp": [
+          "oklch(15.0% 0.005 117.9)",
+          "oklch(26.4% 0.005 117.9)",
+          "oklch(37.9% 0.005 117.9)",
+          "oklch(49.3% 0.005 117.9)",
+          "oklch(60.7% 0.005 117.9)",
+          "oklch(72.1% 0.005 117.9)",
+          "oklch(83.6% 0.005 117.9)",
+          "oklch(95.0% 0.005 117.9)"
+        ]
+      },
+      "band-muted": {
+        "role": "neutral",
+        "displayName": "Band Muted",
+        "canonical": "#c3c8d2",
+        "tonalRamp": [
+          "oklch(15.0% 0.015 264.5)",
+          "oklch(26.4% 0.015 264.5)",
+          "oklch(37.9% 0.015 264.5)",
+          "oklch(49.3% 0.015 264.5)",
+          "oklch(60.7% 0.015 264.5)",
+          "oklch(72.1% 0.015 264.5)",
+          "oklch(83.6% 0.015 264.5)",
+          "oklch(95.0% 0.015 264.5)"
+        ]
+      },
+      "band-action": {
+        "role": "primary",
+        "displayName": "Band Cobalt",
+        "canonical": "#2d5bd7",
+        "tonalRamp": [
+          "oklch(15.0% 0.197 264.8)",
+          "oklch(26.4% 0.197 264.8)",
+          "oklch(37.9% 0.197 264.8)",
+          "oklch(49.3% 0.197 264.8)",
+          "oklch(60.7% 0.197 264.8)",
+          "oklch(72.1% 0.197 264.8)",
+          "oklch(83.6% 0.197 264.8)",
+          "oklch(95.0% 0.197 264.8)"
+        ]
+      },
+      "band-action-ink": {
+        "role": "primary",
+        "displayName": "Band Cobalt Ink",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 0.0)",
+          "oklch(26.4% 0.000 0.0)",
+          "oklch(37.9% 0.000 0.0)",
+          "oklch(49.3% 0.000 0.0)",
+          "oklch(60.7% 0.000 0.0)",
+          "oklch(72.1% 0.000 0.0)",
+          "oklch(83.6% 0.000 0.0)",
+          "oklch(95.0% 0.000 0.0)"
+        ]
+      },
+      "paper-dark": {
+        "role": "neutral",
+        "displayName": "Cool Paper (dark)",
+        "canonical": "#0e131c",
+        "tonalRamp": [
+          "oklch(15.0% 0.020 262.0)",
+          "oklch(26.4% 0.020 262.0)",
+          "oklch(37.9% 0.020 262.0)",
+          "oklch(49.3% 0.020 262.0)",
+          "oklch(60.7% 0.020 262.0)",
+          "oklch(72.1% 0.020 262.0)",
+          "oklch(83.6% 0.020 262.0)",
+          "oklch(95.0% 0.020 262.0)"
+        ]
+      },
+      "surface-dark": {
+        "role": "neutral",
+        "displayName": "Panel White (dark)",
+        "canonical": "#151b26",
+        "tonalRamp": [
+          "oklch(15.0% 0.023 262.3)",
+          "oklch(26.4% 0.023 262.3)",
+          "oklch(37.9% 0.023 262.3)",
+          "oklch(49.3% 0.023 262.3)",
+          "oklch(60.7% 0.023 262.3)",
+          "oklch(72.1% 0.023 262.3)",
+          "oklch(83.6% 0.023 262.3)",
+          "oklch(95.0% 0.023 262.3)"
+        ]
+      },
+      "ink-dark": {
+        "role": "neutral",
+        "displayName": "Navy Ink (dark)",
+        "canonical": "#eef1f5",
+        "tonalRamp": [
+          "oklch(15.0% 0.006 255.5)",
+          "oklch(26.4% 0.006 255.5)",
+          "oklch(37.9% 0.006 255.5)",
+          "oklch(49.3% 0.006 255.5)",
+          "oklch(60.7% 0.006 255.5)",
+          "oklch(72.1% 0.006 255.5)",
+          "oklch(83.6% 0.006 255.5)",
+          "oklch(95.0% 0.006 255.5)"
+        ]
+      },
+      "ink-2-dark": {
+        "role": "neutral",
+        "displayName": "Slate Ink (dark)",
+        "canonical": "#c8ceda",
+        "tonalRamp": [
+          "oklch(15.0% 0.018 264.5)",
+          "oklch(26.4% 0.018 264.5)",
+          "oklch(37.9% 0.018 264.5)",
+          "oklch(49.3% 0.018 264.5)",
+          "oklch(60.7% 0.018 264.5)",
+          "oklch(72.1% 0.018 264.5)",
+          "oklch(83.6% 0.018 264.5)",
+          "oklch(95.0% 0.018 264.5)"
+        ]
+      },
+      "muted-dark": {
+        "role": "neutral",
+        "displayName": "Pewter (dark)",
+        "canonical": "#9aa3b4",
+        "tonalRamp": [
+          "oklch(15.0% 0.027 263.3)",
+          "oklch(26.4% 0.027 263.3)",
+          "oklch(37.9% 0.027 263.3)",
+          "oklch(49.3% 0.027 263.3)",
+          "oklch(60.7% 0.027 263.3)",
+          "oklch(72.1% 0.027 263.3)",
+          "oklch(83.6% 0.027 263.3)",
+          "oklch(95.0% 0.027 263.3)"
+        ]
+      },
+      "rule-dark": {
+        "role": "neutral",
+        "displayName": "Rule (dark)",
+        "canonical": "#263041",
+        "tonalRamp": [
+          "oklch(15.0% 0.034 260.9)",
+          "oklch(26.4% 0.034 260.9)",
+          "oklch(37.9% 0.034 260.9)",
+          "oklch(49.3% 0.034 260.9)",
+          "oklch(60.7% 0.034 260.9)",
+          "oklch(72.1% 0.034 260.9)",
+          "oklch(83.6% 0.034 260.9)",
+          "oklch(95.0% 0.034 260.9)"
+        ]
+      },
+      "rule-strong-dark": {
+        "role": "neutral",
+        "displayName": "Strong Rule (dark)",
+        "canonical": "#3b4659",
+        "tonalRamp": [
+          "oklch(15.0% 0.035 261.3)",
+          "oklch(26.4% 0.035 261.3)",
+          "oklch(37.9% 0.035 261.3)",
+          "oklch(49.3% 0.035 261.3)",
+          "oklch(60.7% 0.035 261.3)",
+          "oklch(72.1% 0.035 261.3)",
+          "oklch(83.6% 0.035 261.3)",
+          "oklch(95.0% 0.035 261.3)"
+        ]
+      },
+      "action-dark": {
+        "role": "primary",
+        "displayName": "Cobalt Action (dark)",
+        "canonical": "#8fb0ff",
+        "tonalRamp": [
+          "oklch(15.0% 0.120 266.3)",
+          "oklch(26.4% 0.120 266.3)",
+          "oklch(37.9% 0.120 266.3)",
+          "oklch(49.3% 0.120 266.3)",
+          "oklch(60.7% 0.120 266.3)",
+          "oklch(72.1% 0.120 266.3)",
+          "oklch(83.6% 0.120 266.3)",
+          "oklch(95.0% 0.120 266.3)"
+        ]
+      },
+      "action-hover-dark": {
+        "role": "primary",
+        "displayName": "Deep Cobalt (dark)",
+        "canonical": "#b5caff",
+        "tonalRamp": [
+          "oklch(15.0% 0.078 267.9)",
+          "oklch(26.4% 0.078 267.9)",
+          "oklch(37.9% 0.078 267.9)",
+          "oklch(49.3% 0.078 267.9)",
+          "oklch(60.7% 0.078 267.9)",
+          "oklch(72.1% 0.078 267.9)",
+          "oklch(83.6% 0.078 267.9)",
+          "oklch(95.0% 0.078 267.9)"
+        ]
+      },
+      "action-ink-dark": {
+        "role": "primary",
+        "displayName": "Action Ink (dark)",
+        "canonical": "#0b1222",
+        "tonalRamp": [
+          "oklch(15.0% 0.035 265.3)",
+          "oklch(26.4% 0.035 265.3)",
+          "oklch(37.9% 0.035 265.3)",
+          "oklch(49.3% 0.035 265.3)",
+          "oklch(60.7% 0.035 265.3)",
+          "oklch(72.1% 0.035 265.3)",
+          "oklch(83.6% 0.035 265.3)",
+          "oklch(95.0% 0.035 265.3)"
+        ]
+      },
+      "added-dark": {
+        "role": "semantic",
+        "displayName": "Shipped Green (dark)",
+        "canonical": "#7ad7a1",
+        "tonalRamp": [
+          "oklch(15.0% 0.119 156.9)",
+          "oklch(26.4% 0.119 156.9)",
+          "oklch(37.9% 0.119 156.9)",
+          "oklch(49.3% 0.119 156.9)",
+          "oklch(60.7% 0.119 156.9)",
+          "oklch(72.1% 0.119 156.9)",
+          "oklch(83.6% 0.119 156.9)",
+          "oklch(95.0% 0.119 156.9)"
+        ]
+      },
+      "added-bg-dark": {
+        "role": "semantic",
+        "displayName": "Shipped Green Wash (dark)",
+        "canonical": "#13301f",
+        "tonalRamp": [
+          "oklch(15.0% 0.047 155.9)",
+          "oklch(26.4% 0.047 155.9)",
+          "oklch(37.9% 0.047 155.9)",
+          "oklch(49.3% 0.047 155.9)",
+          "oklch(60.7% 0.047 155.9)",
+          "oklch(72.1% 0.047 155.9)",
+          "oklch(83.6% 0.047 155.9)",
+          "oklch(95.0% 0.047 155.9)"
+        ]
+      },
+      "changed-dark": {
+        "role": "semantic",
+        "displayName": "Changed Blue (dark)",
+        "canonical": "#a6bdff",
+        "tonalRamp": [
+          "oklch(15.0% 0.097 269.3)",
+          "oklch(26.4% 0.097 269.3)",
+          "oklch(37.9% 0.097 269.3)",
+          "oklch(49.3% 0.097 269.3)",
+          "oklch(60.7% 0.097 269.3)",
+          "oklch(72.1% 0.097 269.3)",
+          "oklch(83.6% 0.097 269.3)",
+          "oklch(95.0% 0.097 269.3)"
+        ]
+      },
+      "changed-bg-dark": {
+        "role": "semantic",
+        "displayName": "Changed Blue Wash (dark)",
+        "canonical": "#1a2546",
+        "tonalRamp": [
+          "oklch(15.0% 0.063 268.2)",
+          "oklch(26.4% 0.063 268.2)",
+          "oklch(37.9% 0.063 268.2)",
+          "oklch(49.3% 0.063 268.2)",
+          "oklch(60.7% 0.063 268.2)",
+          "oklch(72.1% 0.063 268.2)",
+          "oklch(83.6% 0.063 268.2)",
+          "oklch(95.0% 0.063 268.2)"
+        ]
+      },
+      "progress-dark": {
+        "role": "semantic",
+        "displayName": "Progress Amber (dark)",
+        "canonical": "#f1c35f",
+        "tonalRamp": [
+          "oklch(15.0% 0.129 84.6)",
+          "oklch(26.4% 0.129 84.6)",
+          "oklch(37.9% 0.129 84.6)",
+          "oklch(49.3% 0.129 84.6)",
+          "oklch(60.7% 0.129 84.6)",
+          "oklch(72.1% 0.129 84.6)",
+          "oklch(83.6% 0.129 84.6)",
+          "oklch(95.0% 0.129 84.6)"
+        ]
+      },
+      "progress-bg-dark": {
+        "role": "semantic",
+        "displayName": "Progress Amber Wash (dark)",
+        "canonical": "#35290d",
+        "tonalRamp": [
+          "oklch(15.0% 0.046 85.8)",
+          "oklch(26.4% 0.046 85.8)",
+          "oklch(37.9% 0.046 85.8)",
+          "oklch(49.3% 0.046 85.8)",
+          "oklch(60.7% 0.046 85.8)",
+          "oklch(72.1% 0.046 85.8)",
+          "oklch(83.6% 0.046 85.8)",
+          "oklch(95.0% 0.046 85.8)"
+        ]
+      },
+      "tag-bg-dark": {
+        "role": "neutral",
+        "displayName": "Tag Fill (dark)",
+        "canonical": "#eef1f5",
+        "tonalRamp": [
+          "oklch(15.0% 0.006 255.5)",
+          "oklch(26.4% 0.006 255.5)",
+          "oklch(37.9% 0.006 255.5)",
+          "oklch(49.3% 0.006 255.5)",
+          "oklch(60.7% 0.006 255.5)",
+          "oklch(72.1% 0.006 255.5)",
+          "oklch(83.6% 0.006 255.5)",
+          "oklch(95.0% 0.006 255.5)"
+        ]
+      },
+      "tag-ink-dark": {
+        "role": "neutral",
+        "displayName": "Tag Ink (dark)",
+        "canonical": "#0e131c",
+        "tonalRamp": [
+          "oklch(15.0% 0.020 262.0)",
+          "oklch(26.4% 0.020 262.0)",
+          "oklch(37.9% 0.020 262.0)",
+          "oklch(49.3% 0.020 262.0)",
+          "oklch(60.7% 0.020 262.0)",
+          "oklch(72.1% 0.020 262.0)",
+          "oklch(83.6% 0.020 262.0)",
+          "oklch(95.0% 0.020 262.0)"
+        ]
+      },
+      "sk-field-dark": {
+        "role": "product",
+        "displayName": "SiapKnow Field (dark)",
+        "canonical": "#06080d",
+        "tonalRamp": [
+          "oklch(15.0% 0.012 264.7)",
+          "oklch(26.4% 0.012 264.7)",
+          "oklch(37.9% 0.012 264.7)",
+          "oklch(49.3% 0.012 264.7)",
+          "oklch(60.7% 0.012 264.7)",
+          "oklch(72.1% 0.012 264.7)",
+          "oklch(83.6% 0.012 264.7)",
+          "oklch(95.0% 0.012 264.7)"
+        ]
+      },
+      "sk-line-dark": {
+        "role": "product",
+        "displayName": "SiapKnow Hairline (dark)",
+        "canonical": "rgba(236, 238, 245, 0.16)"
+      },
+      "sk-ink-dark": {
+        "role": "product",
+        "displayName": "SiapKnow Ink (dark)",
+        "canonical": "#eceef4",
+        "tonalRamp": [
+          "oklch(15.0% 0.008 271.3)",
+          "oklch(26.4% 0.008 271.3)",
+          "oklch(37.9% 0.008 271.3)",
+          "oklch(49.3% 0.008 271.3)",
+          "oklch(60.7% 0.008 271.3)",
+          "oklch(72.1% 0.008 271.3)",
+          "oklch(83.6% 0.008 271.3)",
+          "oklch(95.0% 0.008 271.3)"
+        ]
+      },
+      "sk-muted-dark": {
+        "role": "product",
+        "displayName": "SiapKnow Muted (dark)",
+        "canonical": "#a9aebd",
+        "tonalRamp": [
+          "oklch(15.0% 0.022 271.1)",
+          "oklch(26.4% 0.022 271.1)",
+          "oklch(37.9% 0.022 271.1)",
+          "oklch(49.3% 0.022 271.1)",
+          "oklch(60.7% 0.022 271.1)",
+          "oklch(72.1% 0.022 271.1)",
+          "oklch(83.6% 0.022 271.1)",
+          "oklch(95.0% 0.022 271.1)"
+        ]
+      },
+      "mj-field-dark": {
+        "role": "product",
+        "displayName": "Leaf Field (dark)",
+        "canonical": "#1c2a19",
+        "tonalRamp": [
+          "oklch(15.0% 0.036 140.1)",
+          "oklch(26.4% 0.036 140.1)",
+          "oklch(37.9% 0.036 140.1)",
+          "oklch(49.3% 0.036 140.1)",
+          "oklch(60.7% 0.036 140.1)",
+          "oklch(72.1% 0.036 140.1)",
+          "oklch(83.6% 0.036 140.1)",
+          "oklch(95.0% 0.036 140.1)"
+        ]
+      },
+      "mj-ink-dark": {
+        "role": "product",
+        "displayName": "Leaf Ink (dark)",
+        "canonical": "#d9e8cc",
+        "tonalRamp": [
+          "oklch(15.0% 0.041 130.3)",
+          "oklch(26.4% 0.041 130.3)",
+          "oklch(37.9% 0.041 130.3)",
+          "oklch(49.3% 0.041 130.3)",
+          "oklch(60.7% 0.041 130.3)",
+          "oklch(72.1% 0.041 130.3)",
+          "oklch(83.6% 0.041 130.3)",
+          "oklch(95.0% 0.041 130.3)"
+        ]
+      },
+      "mj-shadow-dark": {
+        "role": "product",
+        "displayName": "Leaf Shadow (dark)",
+        "canonical": "rgba(0, 0, 0, 0.55)"
+      },
+      "band-dark": {
+        "role": "neutral",
+        "displayName": "Inverted Band (dark)",
+        "canonical": "#070a10",
+        "tonalRamp": [
+          "oklch(15.0% 0.014 262.1)",
+          "oklch(26.4% 0.014 262.1)",
+          "oklch(37.9% 0.014 262.1)",
+          "oklch(49.3% 0.014 262.1)",
+          "oklch(60.7% 0.014 262.1)",
+          "oklch(72.1% 0.014 262.1)",
+          "oklch(83.6% 0.014 262.1)",
+          "oklch(95.0% 0.014 262.1)"
+        ]
+      },
+      "band-ink-dark": {
+        "role": "neutral",
+        "displayName": "Band Ink (dark)",
+        "canonical": "#eef1f5",
+        "tonalRamp": [
+          "oklch(15.0% 0.006 255.5)",
+          "oklch(26.4% 0.006 255.5)",
+          "oklch(37.9% 0.006 255.5)",
+          "oklch(49.3% 0.006 255.5)",
+          "oklch(60.7% 0.006 255.5)",
+          "oklch(72.1% 0.006 255.5)",
+          "oklch(83.6% 0.006 255.5)",
+          "oklch(95.0% 0.006 255.5)"
+        ]
+      },
+      "band-muted-dark": {
+        "role": "neutral",
+        "displayName": "Band Muted (dark)",
+        "canonical": "#a7afbf",
+        "tonalRamp": [
+          "oklch(15.0% 0.025 264.4)",
+          "oklch(26.4% 0.025 264.4)",
+          "oklch(37.9% 0.025 264.4)",
+          "oklch(49.3% 0.025 264.4)",
+          "oklch(60.7% 0.025 264.4)",
+          "oklch(72.1% 0.025 264.4)",
+          "oklch(83.6% 0.025 264.4)",
+          "oklch(95.0% 0.025 264.4)"
+        ]
+      },
+      "band-action-dark": {
+        "role": "primary",
+        "displayName": "Band Cobalt (dark)",
+        "canonical": "#8fb0ff",
+        "tonalRamp": [
+          "oklch(15.0% 0.120 266.3)",
+          "oklch(26.4% 0.120 266.3)",
+          "oklch(37.9% 0.120 266.3)",
+          "oklch(49.3% 0.120 266.3)",
+          "oklch(60.7% 0.120 266.3)",
+          "oklch(72.1% 0.120 266.3)",
+          "oklch(83.6% 0.120 266.3)",
+          "oklch(95.0% 0.120 266.3)"
+        ]
+      },
+      "band-action-ink-dark": {
+        "role": "primary",
+        "displayName": "Band Cobalt Ink (dark)",
+        "canonical": "#0b1222",
+        "tonalRamp": [
+          "oklch(15.0% 0.035 265.3)",
+          "oklch(26.4% 0.035 265.3)",
+          "oklch(37.9% 0.035 265.3)",
+          "oklch(49.3% 0.035 265.3)",
+          "oklch(60.7% 0.035 265.3)",
+          "oklch(72.1% 0.035 265.3)",
+          "oklch(83.6% 0.035 265.3)",
+          "oklch(95.0% 0.035 265.3)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The name as the home page's h1; the 404 page uses clamp(2.6rem, 1.6rem + 4vw, 4.5rem)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heads: Version history, Skills, Contact."
+      },
+      "year": {
+        "displayName": "Year",
+        "purpose": "Rail year labels, tabular figures; 40px, right-aligned and sticky from 960px."
+      },
+      "title": {
+        "displayName": "Entry Title",
+        "purpose": "Release entry titles, with an optional 44px app icon and a 0.66em role."
+      },
+      "title-featured": {
+        "displayName": "Featured Entry Title",
+        "purpose": "Titles of the two featured releases."
+      },
+      "subhead": {
+        "displayName": "Subhead",
+        "purpose": "\"What's new\" under the hero."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "The hero's summary line, 30ch, in Slate Ink."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base text; entry leads 17.5px, change lines 16.5px (17.5px in the hero)."
+      },
+      "link": {
+        "displayName": "Link",
+        "purpose": "Outward and outlined links in each entry's links row; inward links use 500."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Button labels; 15px on the small header button."
+      },
+      "label": {
+        "displayName": "Change Label",
+        "purpose": "The coloured verb that opens each change line."
+      },
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "Manrope 800, the header name only; 18px at 380px and under."
+      },
+      "tag": {
+        "displayName": "Calendar Tag",
+        "purpose": "The release tag; entry tags at 12.5px."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "Entry date ranges and shortstat lines; file names 13px, sizes 12.5px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "screenshot-lift",
+        "value": "0 18px 30px -16px var(--mj-shadow), 0 2px 6px rgba(35, 64, 31, 0.12)",
+        "purpose": "Under the three App Store screenshots in the Myrna & Judith cover; the system's only cast shadow."
+      },
+      {
+        "name": "ring-entry-tag",
+        "value": "inset 0 0 0 1px var(--rule-strong)",
+        "purpose": "Hairline ring on entry tags."
+      },
+      {
+        "name": "ring-latest",
+        "value": "inset 0 0 0 1px color-mix(in srgb, var(--added) 40%, transparent)",
+        "purpose": "Hairline ring on the Latest badge."
+      },
+      {
+        "name": "ring-siapknow-cover",
+        "value": "inset 0 0 0 1px var(--sk-line)",
+        "purpose": "Hairline ring around the SiapKnow cover, in both schemes."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 2px solid var(--action); outline-offset: 3px; border-radius: 4px",
+        "purpose": "Every :focus-visible; elements with their own radius keep it. In the contact band the outline is var(--band-ink)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one easing curve (--ease-out), for state transitions and the Latest stamp."
+      },
+      {
+        "name": "state-transition",
+        "value": "background-color 0.2s var(--ease-out), border-color 0.2s var(--ease-out), transform 0.2s var(--ease-out)",
+        "purpose": "Buttons; asset rows transition background-color only. Not gated by motion preference."
+      },
+      {
+        "name": "press",
+        "value": "transform: translateY(1px)",
+        "purpose": "Buttons on :active."
+      },
+      {
+        "name": "stamp",
+        "value": "stamp 0.75s var(--ease-out); from { transform: scale(1.7) rotate(-7deg); filter: blur(2px) } to { transform: none; filter: none }",
+        "purpose": "The Latest badge, once on load; only under prefers-reduced-motion: no-preference."
+      },
+      {
+        "name": "node-lit",
+        "value": "node-lit linear both; animation-timeline: view(); animation-range: entry 0% cover 30%; from { transform: scale(0.5) } to { transform: none }",
+        "purpose": "Rail nodes as their entry scrolls in; live nodes run node-lit-live, which also fills from var(--paper) and var(--rule-strong) to var(--added). Only under no-preference and @supports (animation-timeline: view())."
+      },
+      {
+        "name": "smooth-scroll",
+        "value": "scroll-behavior: smooth; scroll-padding-top: 84px",
+        "purpose": "Anchors land below the sticky header; smooth scrolling only under no-preference."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "small-name",
+        "value": "380px",
+        "purpose": "max-width: the header name drops to 18px."
+      },
+      {
+        "name": "changes-inline",
+        "value": "559px",
+        "purpose": "max-width: change labels run inline before their text."
+      },
+      {
+        "name": "skills-columns",
+        "value": "560px",
+        "purpose": "Skills rows gain a 9.5rem term column."
+      },
+      {
+        "name": "gutter-wide",
+        "value": "720px",
+        "purpose": "Side gutters 40px; change-label column 6.4rem."
+      },
+      {
+        "name": "header-nav",
+        "value": "760px",
+        "purpose": "Section links show and the mail button hides; below it the header gap is 8px and the Resume pill 14px padded."
+      },
+      {
+        "name": "rail",
+        "value": "960px",
+        "purpose": "Hero two-column, rail grid with sticky years, contact columns, larger section padding."
+      },
+      {
+        "name": "featured-split",
+        "value": "1120px",
+        "purpose": "Featured entries put the cover beside the notes, sticky at 96px."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one filled action, a cobalt pill; the small variant ends the header row.",
+      "html": "<a class=\"ds-btn ds-btn--primary\" href=\"#\">Resume (PDF)<svg class=\"ds-icon\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M10 3v10m0 0-4-4m4 4 4-4M4 16h12\"/></svg></a> <a class=\"ds-btn ds-btn--primary ds-btn--sm\" href=\"#\">Resume<svg class=\"ds-icon\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M10 3v10m0 0-4-4m4 4 4-4M4 16h12\"/></svg></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;border:1px solid transparent;border-radius:999px;font-family:var(--font);font-size:15.5px;font-weight:650;line-height:1;text-decoration:none;white-space:nowrap;transition:background-color .2s var(--ease-out),border-color .2s var(--ease-out),transform .2s var(--ease-out)} .ds-btn--sm{min-height:44px;padding:0 16px;font-size:15px} .ds-btn--primary{background:var(--action);color:var(--action-ink)} .ds-btn--primary:hover{background:var(--action-hover)} .ds-btn:active{transform:translateY(1px)} .ds-btn:focus-visible{outline:2px solid var(--action);outline-offset:3px} .ds-icon{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "Contact Band",
+      "kind": "custom",
+      "refersTo": "contact-band",
+      "description": "The close in inverted ink: heading, lead, a large underlined email, then the band's primary and ghost buttons.",
+      "html": "<section class=\"ds-band\"><h2 class=\"ds-band__title\">Contact</h2><p class=\"ds-band__lead\">Hiring for mobile or AI-first engineering? I’d like to hear about it.</p><p class=\"ds-band__where\">Based in the Philippines.</p><a class=\"ds-band__email\" href=\"#\">name@example.com</a><p class=\"ds-band__links\"><a class=\"ds-bbtn ds-bbtn--primary\" href=\"#\">Resume (PDF)<svg class=\"ds-icon\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M10 3v10m0 0-4-4m4 4 4-4M4 16h12\"/></svg></a><a class=\"ds-bbtn ds-bbtn--ghost\" href=\"#\">LinkedIn<svg class=\"ds-icon\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M7 13 13 7m-5 0h5v5\"/></svg></a></p></section>",
+      "css": ".ds-band{padding:72px 16px 80px;background:var(--band);color:var(--band-ink);font-family:var(--font);font-size:17px;line-height:1.6} .ds-band__title{margin:0;font-size:clamp(2.2rem,1.5rem + 2.6vw,3.6rem);font-weight:600;line-height:1;letter-spacing:-0.04em} .ds-band__lead{max-width:24ch;margin:16px 0 0;font-size:clamp(1.25rem,1rem + 1vw,1.75rem);line-height:1.35} .ds-band__where{margin:12px 0 32px;color:var(--band-muted)} .ds-band__email{display:inline-block;color:inherit;font-size:clamp(1.2rem,0.75rem + 1.5vw,1.85rem);font-weight:600;letter-spacing:-0.02em;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:7px;overflow-wrap:anywhere} .ds-band__email:hover{text-decoration-thickness:3px} .ds-band__links{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:24px 0 0} .ds-bbtn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;border:1px solid transparent;border-radius:999px;font-family:var(--font);font-size:15.5px;font-weight:650;line-height:1;text-decoration:none;white-space:nowrap;transition:background-color .2s var(--ease-out),border-color .2s var(--ease-out),transform .2s var(--ease-out)} .ds-bbtn--primary{background:var(--band-action);color:var(--band-action-ink)} .ds-bbtn--ghost{border-color:color-mix(in srgb,var(--band-ink) 40%,var(--band));color:var(--band-ink)} .ds-bbtn--ghost:hover{border-color:var(--band-ink)} .ds-bbtn:active{transform:translateY(1px)} .ds-band :focus-visible{outline:2px solid var(--band-ink);outline-offset:3px} @media (prefers-color-scheme:dark){.ds-band{border-top:1px solid var(--rule)}} .ds-icon{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "Release Links",
+      "kind": "custom",
+      "refersTo": "link-out-strong",
+      "description": "An entry's links row: outlined pill for the lead destination, plain outward link, underlined inward link.",
+      "html": "<p class=\"ds-links\"><a class=\"ds-link-out ds-link-out--strong\" href=\"#\">App Store<svg class=\"ds-icon ds-icon--sm\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M7 13 13 7m-5 0h5v5\"/></svg></a><a class=\"ds-link-out\" href=\"#\">Website<svg class=\"ds-icon ds-icon--sm\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M7 13 13 7m-5 0h5v5\"/></svg></a><a class=\"ds-link-in\" href=\"#\">Full notes</a></p>",
+      "css": ".ds-links{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin:0;font-family:var(--font);line-height:1.6} .ds-link-out,.ds-link-in{display:inline-flex;align-items:center;gap:5px;min-height:44px;padding:0 4px;font-size:15.5px;font-weight:600;text-decoration:none} .ds-link-out{color:var(--action)} .ds-link-out:hover,.ds-link-in:hover{text-decoration:underline;text-underline-offset:4px} .ds-link-out--strong{min-height:40px;padding:0 12px 0 15px;border:1px solid color-mix(in srgb,var(--action) 45%,transparent);border-radius:999px} .ds-link-out--strong:hover{text-decoration:none;background:color-mix(in srgb,var(--action) 9%,transparent)} .ds-link-in{color:var(--ink-2);font-weight:500;text-decoration:underline;text-decoration-color:var(--rule-strong);text-underline-offset:4px} .ds-link-in:hover{text-decoration-color:currentColor} .ds-link-out:focus-visible,.ds-link-in:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:4px} .ds-link-out--strong:focus-visible{border-radius:999px} .ds-icon{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round} .ds-icon--sm{width:16px;height:16px}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": "header",
+      "description": "Sticky paper header: Manrope name, section links from 760px (a mail button below), small Resume pill.",
+      "html": "<header class=\"ds-top\"><div class=\"ds-top__row\"><a class=\"ds-top__name\" href=\"#\">Stephen Siapno</a><nav class=\"ds-top__nav\" aria-label=\"Sections\"><a href=\"#\">Work</a><a href=\"#\">Experience</a><a href=\"#\">Skills</a><a href=\"#\">Contact</a></nav><a class=\"ds-top__mail\" href=\"#\" aria-label=\"Email\"><svg class=\"ds-icon\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M3 5.5h14v9H3zM3.5 6l6.5 5 6.5-5\"/></svg></a><a class=\"ds-top__resume\" href=\"#\">Resume<svg class=\"ds-icon\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M10 3v10m0 0-4-4m4 4 4-4M4 16h12\"/></svg></a></div></header>",
+      "css": ".ds-top{background:var(--paper);border-bottom:1px solid var(--rule);color:var(--ink);font-family:var(--font);line-height:1.6} .ds-top__row{display:flex;align-items:center;gap:24px;min-height:64px;padding:0 16px} .ds-top__name{margin-right:auto;color:inherit;font-family:var(--brand);font-size:20px;font-weight:800;letter-spacing:-0.035em;line-height:1;text-decoration:none;white-space:nowrap} .ds-top__nav{display:flex;gap:28px;font-size:15px;color:var(--ink-2)} .ds-top__nav a{padding:10px 0;color:inherit;text-decoration:none} .ds-top__nav a:hover{color:var(--ink);text-decoration:underline;text-underline-offset:6px} .ds-top__mail{display:none;place-items:center;flex:none;box-sizing:border-box;width:44px;height:44px;border-radius:50%;border:1px solid var(--rule-strong);color:var(--ink)} .ds-top__mail:hover{border-color:var(--ink)} .ds-top__resume{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:999px;background:var(--action);color:var(--action-ink);font-size:15px;font-weight:650;line-height:1;text-decoration:none;white-space:nowrap;transition:background-color .2s var(--ease-out),transform .2s var(--ease-out)} .ds-top__resume:hover{background:var(--action-hover)} .ds-top__resume:active{transform:translateY(1px)} .ds-top a:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:4px} .ds-top .ds-top__resume:focus-visible{border-radius:999px} .ds-top .ds-top__mail:focus-visible{border-radius:50%} @media (max-width:759px){.ds-top__nav{display:none}.ds-top__mail{display:inline-grid}.ds-top__row{gap:8px}.ds-top__resume{padding:0 14px}} @media (max-width:380px){.ds-top__name{font-size:18px}} .ds-icon{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "Calendar Tags",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "The inverted release tag (one per page) and the ringed entry tag that opens every entry's meta row.",
+      "html": "<p class=\"ds-tags\"><span class=\"ds-tag\">2026.11</span><span class=\"ds-tag ds-tag--entry\">2026.04</span><span class=\"ds-tag ds-tag--entry\">2023</span></p>",
+      "css": ".ds-tags{display:flex;flex-wrap:wrap;align-items:center;gap:10px 12px;margin:0} .ds-tag{padding:4px 10px;border-radius:6px;background:var(--tag-bg);color:var(--tag-ink);font-family:var(--mono);font-size:14px;font-weight:600;line-height:1.3} .ds-tag--entry{padding:2px 8px;background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--rule-strong);font-size:12.5px}"
+    },
+    {
+      "name": "Change Lines",
+      "kind": "custom",
+      "refersTo": "label-added",
+      "description": "A coloured verb, then the note: green for added or shipped, blue for changed or led, amber for in progress.",
+      "html": "<ul class=\"ds-changes\"><li><span class=\"ds-label ds-label--added\">Shipped</span><span>On the <a href=\"#\">App Store</a> and Google Play.</span></li><li><span class=\"ds-label ds-label--changed\">Changed</span><span>CI/CD from Azure DevOps to GitHub Actions.</span></li><li><span class=\"ds-label ds-label--progress\">In progress</span><span>Version 2, with broader AI flashcards.</span></li></ul>",
+      "css": ".ds-changes{display:grid;gap:12px;max-width:68ch;margin:0;padding:0;list-style:none;color:var(--ink);font-family:var(--font);font-size:16.5px;line-height:1.6} .ds-changes li{display:grid;grid-template-columns:5.9rem minmax(0,1fr);gap:12px;align-items:baseline} .ds-label{justify-self:start;padding:5px 8px;border-radius:6px;font-size:12.5px;font-weight:700;line-height:1;white-space:nowrap;transform:translateY(-1px)} .ds-label--added{color:var(--added);background:var(--added-bg)} .ds-label--changed{color:var(--changed);background:var(--changed-bg)} .ds-label--progress{color:var(--progress);background:var(--progress-bg)} .ds-changes a{color:var(--action);font-weight:600;text-underline-offset:3px} .ds-changes a:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:4px} @media (max-width:559px){.ds-changes li{display:block}.ds-changes .ds-label{display:inline-block;margin-right:8px;transform:translateY(-2px)}} @media (min-width:720px){.ds-changes li{grid-template-columns:6.4rem minmax(0,1fr);gap:14px}}"
+    },
+    {
+      "name": "Status Chips and Latest Badge",
+      "kind": "chip",
+      "refersTo": "status-live",
+      "description": "Meta rows: entry tag, a date range when the release spans time, kind chip, statuses; the Latest badge stamps in once.",
+      "html": "<p class=\"ds-meta\"><span class=\"ds-tag-entry\">2026.04</span><span class=\"ds-when\">Apr 2026 – now</span><span class=\"ds-chip\">App</span><span class=\"ds-chip ds-chip--live\">Live on iOS and Android</span></p><p class=\"ds-meta\"><span class=\"ds-tag-entry\">2026.09</span><span class=\"ds-chip\">App</span><span class=\"ds-chip ds-chip--live\">Version 1 live</span><span class=\"ds-chip ds-chip--progress\">Version 2 in progress</span></p><p class=\"ds-meta\"><span class=\"ds-tag-entry\">2026.09</span><span class=\"ds-chip\">Open source</span><span class=\"ds-chip\">29 stars · Nov 2026</span></p><p class=\"ds-meta\"><span class=\"ds-badge\">Latest</span></p>",
+      "css": ".ds-meta{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin:0 0 12px;font-family:var(--font);font-size:13.5px;line-height:1.6} .ds-tag-entry{padding:2px 8px;border-radius:6px;color:var(--ink);box-shadow:inset 0 0 0 1px var(--rule-strong);font-family:var(--mono);font-size:12.5px;font-weight:600;line-height:1.3} .ds-when{margin-right:4px;font-family:var(--mono);font-size:13.5px;color:var(--ink-2)} .ds-chip{padding:3px 10px;border:1px solid var(--rule-strong);border-radius:999px;font-weight:600;line-height:1.4;color:var(--ink-2)} .ds-chip--live{color:var(--added);background:var(--added-bg);border-color:color-mix(in srgb,var(--added) 35%,transparent)} .ds-chip--progress{color:var(--progress);background:var(--progress-bg);border-color:color-mix(in srgb,var(--progress) 35%,transparent)} .ds-badge{padding:4px 11px;border-radius:999px;font-size:13.5px;font-weight:700;line-height:1.3;color:var(--added);background:var(--added-bg);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--added) 40%,transparent)} @media (prefers-reduced-motion:no-preference){.ds-badge{animation:ds-stamp .75s var(--ease-out)}@keyframes ds-stamp{from{transform:scale(1.7) rotate(-7deg);filter:blur(2px)}to{transform:none;filter:none}}}"
+    },
+    {
+      "name": "Assets Panel",
+      "kind": "card",
+      "refersTo": "assets-panel",
+      "description": "The release's downloads and links: a white panel of rows, the resume row tinted cobalt and always first.",
+      "html": "<aside class=\"ds-assets\"><h2 class=\"ds-assets__title\">Assets</h2><ul class=\"ds-assets__list\"><li><a class=\"ds-asset ds-asset--primary\" href=\"#\"><span class=\"ds-asset__icon\"><svg class=\"ds-icon\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M10 3v10m0 0-4-4m4 4 4-4M4 16h12\"/></svg></span><span class=\"ds-asset__text\"><span class=\"ds-asset__name\">Resume</span><span class=\"ds-asset__file\">stephen_siapno_cv.pdf</span></span><span class=\"ds-asset__size\">98 KB · Nov 2026</span></a></li><li><a class=\"ds-asset\" href=\"#\"><span class=\"ds-asset__icon\"><svg class=\"ds-icon\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M5 2.5h7l3 3v12H5z\"/><path d=\"M8 9h4.5M8 12h4.5M8 15h3\"/></svg></span><span class=\"ds-asset__text\"><span class=\"ds-asset__name\">For AI agents</span><span class=\"ds-asset__file\">llms.txt</span></span><span class=\"ds-asset__size\">Plain text</span></a></li></ul></aside>",
+      "css": ".ds-assets{max-width:384px;padding:8px;background:var(--surface);border:1px solid var(--rule);border-radius:var(--radius);color:var(--ink);font-family:var(--font);line-height:1.6} .ds-assets__title{margin:0;padding:12px 12px 8px;font-size:16px;font-weight:600;letter-spacing:-0.01em} .ds-assets__list{display:grid;gap:2px;margin:0;padding:0;list-style:none} .ds-asset{display:grid;grid-template-columns:40px minmax(0,1fr);align-items:center;column-gap:14px;min-height:62px;padding:10px 12px;border-radius:10px;color:inherit;text-decoration:none;transition:background-color .2s var(--ease-out)} .ds-asset:hover{background:color-mix(in srgb,var(--ink) 5%,transparent)} .ds-asset:focus-visible{outline:2px solid var(--action);outline-offset:3px} .ds-asset__icon{display:grid;place-items:center;width:40px;height:40px;border-radius:10px;background:color-mix(in srgb,var(--ink) 7%,transparent)} .ds-asset--primary{background:color-mix(in srgb,var(--action) 9%,transparent)} .ds-asset--primary:hover{background:color-mix(in srgb,var(--action) 15%,transparent)} .ds-asset--primary .ds-asset__icon{background:var(--action);color:var(--action-ink)} .ds-asset__text{display:flex;flex-direction:column;min-width:0} .ds-asset__name{font-size:16px;font-weight:650;line-height:1.3} .ds-asset__file{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:var(--mono);font-size:13px;color:var(--muted)} .ds-asset__size{grid-column:2;margin-top:-2px;font-family:var(--mono);font-size:12.5px;color:var(--muted);white-space:nowrap} .ds-icon{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "Dated Rail Entry",
+      "kind": "custom",
+      "refersTo": "rail-node-live",
+      "description": "Entries hang off a 1px rail; each node is hollow unless the entry is live, and lights as it scrolls in.",
+      "html": "<div class=\"ds-rail\"><article class=\"ds-entry\"><h4 class=\"ds-entry__title\">Myrna &amp; Judith</h4><p class=\"ds-entry__meta\"><span class=\"ds-tag-entry\">2026.04</span><span class=\"ds-when\">Apr 2026 – now</span><span class=\"ds-chip\">App</span><span class=\"ds-chip ds-chip--live\">Live on iOS and Android</span></p><p class=\"ds-shortstat\"><span><b>291</b> pull requests merged</span><span><b>31</b> store builds</span><span>Counted Nov 18, 2026</span></p></article><article class=\"ds-entry\"><h4 class=\"ds-entry__title\">Digiplus <span class=\"ds-entry__role\">Android Developer</span></h4><p class=\"ds-entry__meta\"><span class=\"ds-tag-entry\">2024.10</span><span class=\"ds-when\">Oct 2024 – May 2025</span><span class=\"ds-chip\">Role</span></p></article></div>",
+      "css": ".ds-rail{position:relative;margin-left:6px;padding-left:24px;border-left:1px solid var(--rule-strong);color:var(--ink);font-family:var(--font);line-height:1.6} .ds-entry{position:relative;padding:24px 0 30px;border-bottom:1px solid var(--rule)} .ds-entry:last-child{border-bottom:0} .ds-entry::before{content:\"\";position:absolute;left:-31px;top:35px;box-sizing:border-box;width:13px;height:13px;border-radius:50%;background:var(--paper);border:2px solid var(--rule-strong)} .ds-entry:has(.ds-chip--live)::before{background:var(--added);border-color:var(--added)} .ds-entry__title{display:flex;flex-wrap:wrap;align-items:center;gap:4px 14px;margin:0;font-size:clamp(1.5rem,1.2rem + 1.1vw,2rem);font-weight:600;letter-spacing:-0.03em;line-height:1.12} .ds-entry__role{font-size:0.66em;font-weight:500;letter-spacing:-0.01em;color:var(--ink-2)} .ds-entry__meta{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin:10px 0 0;font-size:13.5px} .ds-tag-entry{padding:2px 8px;border-radius:6px;color:var(--ink);box-shadow:inset 0 0 0 1px var(--rule-strong);font-family:var(--mono);font-size:12.5px;font-weight:600;line-height:1.3} .ds-when{margin-right:4px;font-family:var(--mono);font-size:13.5px;color:var(--ink-2)} .ds-chip{padding:3px 10px;border:1px solid var(--rule-strong);border-radius:999px;font-weight:600;line-height:1.4;color:var(--ink-2)} .ds-chip--live{color:var(--added);background:var(--added-bg);border-color:color-mix(in srgb,var(--added) 35%,transparent)} .ds-chip--progress{color:var(--progress);background:var(--progress-bg);border-color:color-mix(in srgb,var(--progress) 35%,transparent)} .ds-shortstat{display:flex;flex-wrap:wrap;gap:4px 18px;margin:18px 0 0;font-family:var(--mono);font-size:13.5px;color:var(--muted)} .ds-shortstat b{font-weight:600;color:var(--ink)} @media (prefers-reduced-motion:no-preference){@supports (animation-timeline:view()){.ds-entry::before{animation:ds-node-lit linear both;animation-timeline:view();animation-range:entry 0% cover 30%} .ds-entry:has(.ds-chip--live)::before{animation-name:ds-node-lit-live} @keyframes ds-node-lit{from{transform:scale(.5)}to{transform:none}} @keyframes ds-node-lit-live{from{transform:scale(.5);background:var(--paper);border-color:var(--rule-strong)}to{transform:none;background:var(--added);border-color:var(--added)}}}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Release Notes",
+    "overview": "The site is one version history. Stephen's career and products read as releases of a single product, newest on top: the latest release (who he is now, with an Assets panel beside it), then a dated rail of earlier releases back to 2016, a ruled Skills list and an inverted contact band. Its vocabulary is changelog grammar on a cool paper ground: calendar version tags, coloured change labels, dated entries with live nodes, shortstat counts and an assets list. It refuses the hero-plus-project-cards portfolio.\n\nThe page is text-first and ruled, at the density of a good release page: 1px rules, measured line lengths, and colour that carries meaning rather than decoration. Cobalt is the only action colour; green, blue and amber are change meaning. Pictorial colour appears in exactly two places, the covers of the two featured releases, each in its own product's identity: SiapKnow's own site, as a screenshot on SiapKnow's field, and Myrna & Judith's leaf field with fanned App Store screenshots.\n\nIt is static and script-free. Light and dark both follow prefers-color-scheme, with no toggle, and motion is two CSS moments, both off under reduced motion: the Latest badge stamps in once, and rail nodes light as their release scrolls in. The 404 and redirect pages reuse site.css; the Writerside archive pages keep their own look and sit outside this system.",
+    "keyCharacteristics": [
+      "One release history, newest first; work enters as an entry on the rail, never as a card grid.",
+      "Changelog devices are the whole vocabulary: calendar tags, a dated rail with live nodes, change labels, shortstat lines, an assets panel.",
+      "Cool paper, navy ink and one cobalt action colour; status hues only where they mean something.",
+      "Flat and ruled: 1px rules, tonal tints and an inverted band instead of elevation.",
+      "Product colour lives only inside the two featured covers.",
+      "Both colour schemes follow the system; there is no JavaScript."
+    ],
+    "rules": [
+      {
+        "name": "The Meaning Rule",
+        "body": "Green, changed-blue and amber appear only as change meaning: green for what was added, shipped or is live; blue for what changed, was led or is current; amber only for what is in progress. A rail node turns green only when its entry carries a live status.",
+        "section": "colors"
+      },
+      {
+        "name": "The Cover Rule",
+        "body": "The sk-* and mj-* tokens never leave their covers. Outside them, a product appears only through its own icon or mark (44px entry icons, 22px inline marks).",
+        "section": "colors"
+      },
+      {
+        "name": "The Tint Rule",
+        "body": "Hover fills, tile fills and outlines are color-mix(in srgb, <token> N%, transparent) tints of an existing token, never new colours: ink at 5% (row hover) and 7% (icon tile); action at 9% (the resume row, outlined-link hover), 15% (resume row hover) and 45% (outlined-link border); added and progress at 35% (status borders); added at 40% (the Latest ring). On the band, the ghost border mixes band-ink 40% into band.",
+        "section": "colors"
+      },
+      {
+        "name": "The Six-Hundred Rule",
+        "body": "Every Inter Tight heading, from the 6rem name to the 16px panel title, is 600. Heavier weights belong to small text that has to hold at size: 650 for buttons and asset names, 700 for labels, badges and bold text, 720 for skill group names. Only the Manrope name reaches 800.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tight-at-Size Rule",
+        "body": "Tracking tightens as size grows: -0.04em on display and headlines, -0.035em on years and the name, -0.03em on entry titles, -0.02em on the subhead and the contact email, -0.01em on the Assets title and entry roles. Body text keeps normal tracking.",
+        "section": "typography"
+      },
+      {
+        "name": "The Metadata Mono Rule",
+        "body": "JetBrains Mono sets only release metadata: calendar tags, entry date ranges, file names and handles in the Assets list, sizes, and shortstat counts. It never sets prose, headings, labels or buttons. Year labels and the hero's \"Updated\" date stay in Inter Tight.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rail Alignment Rule",
+        "body": "From 960px the history and skills content starts at the rail offset, calc(var(--rail) + 32px): the Version history head, the Skills heading and the skills list all line up with the entries column, not the page edge.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Release Rule",
+        "body": "Surfaces rest flat; separation comes from 1px rules, tonal tints and inverted fields. The only cast shadow belongs to the product screenshots inside the Myrna & Judith cover.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Label-Versus-State Rule",
+        "body": "Change labels and calendar tags are 6px rectangles; kind and status chips are pills. \"Shipped\" (a change) and \"Live on iOS and Android\" (a state) share a colour, so shape tells them apart.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do add new work as an entry in its year: entry tag, a mono date range if it spans time, kind chip, status, then change lines that each open with one coloured verb.",
+      "Do pick label colours by meaning: Shipped Green for New, Added and Shipped; Changed Blue for Changed, Updated, Improved, Built, Led, Maintained and Current; Progress Amber only for In progress.",
+      "Do date every count: shortstat lines end with \"Counted <date>\", and star counts carry their month.",
+      "Do define every new colour twice, in :root and in the prefers-color-scheme: dark block.",
+      "Do derive hovers, tile fills and outlines from existing tokens with color-mix (5 to 15% fills, 35 to 45% borders).",
+      "Do keep keyframe animation and smooth scrolling behind prefers-reduced-motion: no-preference, on --ease-out, in CSS only."
+    ],
+    "donts": [
+      "Don't present work as a hero with project cards or a card grid; it enters the history as a release.",
+      "Don't set prose, headings, labels or buttons in JetBrains Mono.",
+      "Don't use the sk-* or mj-* tokens outside their covers.",
+      "Don't give page surfaces drop shadows; borders may be 1px inset rings, and the only cast shadow is the screenshot lift inside the Myrna & Judith cover.",
+      "Don't set Inter Tight headings above 600, or use Manrope for anything but the header name.",
+      "Don't make a status chip or rail node green for anything that isn't live now; green chips mean live, running or current.",
+      "Don't add a theme toggle or any JavaScript; both schemes follow prefers-color-scheme, and the home page's CSP sets script-src 'none'."
+    ]
+  }
+}
