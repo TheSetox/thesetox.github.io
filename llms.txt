@@ -1,6 +1,6 @@
 # Stephen Siapno
 
-> Senior Android engineer in the Philippines who builds AI-first: native Android since 2016, Kotlin Multiplatform apps and libraries today, and AI agents on every change. He runs SiapKnow, an AI-first studio where AI agents plan, build, test and release real apps under his direction and approval. Its app Myrna & Judith is live on the App Store and Google Play. By day he is a Mobile Engineer at EROAD.
+> Senior Android engineer in the Philippines. He started with native Android in 2016 and today builds Kotlin Multiplatform apps and libraries. He works AI-first, leading AI agents that write and test the code. He runs SiapKnow, an AI-first studio where AI agents plan, build, test and release real apps under his direction and approval. Its app Myrna & Judith is live on the App Store and Google Play. By day he is a Mobile Engineer at EROAD.
 
 - Email: stephen.siapno7@gmail.com
 - Resume (PDF): https://thesetox.github.io/resources/stephen_siapno_cv.pdf
