@@ -34,6 +34,7 @@
   --band-ink: #f3f4f0;
   --band-muted: #c3c8d2;
   --band-action: #2d5bd7;
+  --band-action-hover: #2349b4;
   --band-action-ink: #ffffff;
   --radius: 14px;
   /* Type matches siapknow.com (the owner's choice): Inter Tight for text and headings,
@@ -77,6 +78,7 @@
     --band-ink: #eef1f5;
     --band-muted: #a7afbf;
     --band-action: #8fb0ff;
+    --band-action-hover: #b5caff;
     --band-action-ink: #0b1222;
     color-scheme: dark;
   }
@@ -395,6 +397,7 @@ h1 {
 .contact__email:hover { text-decoration-thickness: 3px; }
 .contact .links { margin-top: 24px; gap: 10px; }
 .contact .btn--primary { background: var(--band-action); color: var(--band-action-ink); }
+.contact .btn--primary:hover { background: var(--band-action-hover); }
 .contact .btn--ghost { border-color: color-mix(in srgb, var(--band-ink) 40%, var(--band)); color: var(--band-ink); }
 .contact .btn--ghost:hover { border-color: var(--band-ink); }
 .contact :focus-visible { outline-color: var(--band-ink); }
@@ -432,4 +435,4 @@ h1 {
 .moved { padding-top: 96px; padding-bottom: 96px; }
 .moved > p:first-child:not(.meta) { font-size: 19px; color: var(--ink-2); }
 .moved a { color: var(--action); font-weight: 600; text-underline-offset: 3px; }
-.moved h1 { margin-top: 20px; font-size: clamp(2.6rem, 1.6rem + 4vw, 4.5rem); }
+.moved h1 { font-size: clamp(2.6rem, 1.6rem + 4vw, 4.5rem); }
