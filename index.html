@@ -1,11 +1,469 @@
-
-<!DOCTYPE html>
-<html lang="en-US">
+<!doctype html>
+<html lang="en">
+<head>
 <meta charset="utf-8">
-<title>You will be redirected shortly</title>
-<meta http-equiv="refresh" content="0; url=about-me.html">
-<h1>Redirecting&hellip;</h1>
-<a href="about-me.html">Click here if you are not redirected.</a>
-<script>location = "about-me.html"</script>
-</html>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'none'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; base-uri 'self'; form-action 'none'">
+<title>Stephen Siapno · Mobile engineer, building AI-first</title>
+<meta name="description" content="Stephen Siapno is a mobile engineer (Android since 2016, Kotlin Multiplatform) who builds AI-first. He runs SiapKnow, an AI-first studio whose app Myrna &amp; Judith is live on the App Store and Google Play.">
+<link rel="canonical" href="https://thesetox.github.io/">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f3f4f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e131c" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Stephen Siapno · Mobile engineer, building AI-first">
+<meta property="og:description" content="Android since 2016, Kotlin Multiplatform today. Runs SiapKnow, an AI-first studio; Myrna &amp; Judith is live on iOS and Android.">
+<meta property="og:url" content="https://thesetox.github.io/">
+<meta property="profile:first_name" content="Stephen">
+<meta property="profile:last_name" content="Siapno">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="text/plain" href="llms.txt" title="Plain-text summary for AI agents">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400..800&amp;family=JetBrains+Mono:wght@400;600&amp;family=Manrope:wght@700;800&amp;display=swap">
+<link rel="stylesheet" href="site.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "https://thesetox.github.io/#page",
+      "url": "https://thesetox.github.io/",
+      "name": "Stephen Siapno",
+      "inLanguage": "en",
+      "dateModified": "2026-11-23",
+      "mainEntity": { "@id": "https://thesetox.github.io/#stephen" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://thesetox.github.io/#stephen",
+      "name": "Stephen Siapno",
+      "givenName": "Stephen",
+      "familyName": "Siapno",
+      "jobTitle": "Mobile Engineer",
+      "description": "Mobile engineer who has built Android apps since 2016, works in Kotlin Multiplatform, and builds AI-first: he runs SiapKnow, an AI-first studio where AI agents build and ship real apps under his direction.",
+      "url": "https://thesetox.github.io/",
+      "email": "mailto:stephen.siapno7@gmail.com",
+      "address": { "@type": "PostalAddress", "addressCountry": "PH" },
+      "worksFor": { "@type": "Organization", "name": "EROAD" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Pangasinan" },
+      "knowsAbout": ["Android", "Kotlin", "Kotlin Multiplatform", "Compose Multiplatform", "Jetpack Compose", "Mobile app architecture", "AI-first software development", "AI coding agents", "Claude Code"],
+      "sameAs": ["https://www.linkedin.com/in/stephen-siapno/", "https://github.com/TheSetox", "https://medium.com/@setoxsiapno"]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://siapknow.com/#studio",
+      "name": "SiapKnow",
+      "url": "https://siapknow.com/",
+      "description": "An AI-first studio: apps, developer tools and films made with AI agents.",
+      "founder": { "@id": "https://thesetox.github.io/#stephen" }
+    },
+    {
+      "@type": "MobileApplication",
+      "name": "Myrna & Judith",
+      "url": "https://myrnaandjudith.com/",
+      "description": "A bill and payday tracker for Filipinos, built with Kotlin Multiplatform and Compose Multiplatform.",
+      "operatingSystem": "iOS, Android",
+      "applicationCategory": "FinanceApplication",
+      "sameAs": ["https://apps.apple.com/us/app/myrna-judith/id6767477202", "https://play.google.com/store/apps/details?id=app.myrnaandjudith"],
+      "creator": { "@id": "https://thesetox.github.io/#stephen" }
+    },
+    {
+      "@type": "MobileApplication",
+      "name": "CommitPath",
+      "url": "https://thesetox.github.io/commitpath-site/",
+      "description": "A free, offline Kotlin knowledge refresher with flashcards and guided lessons.",
+      "operatingSystem": "iOS",
+      "applicationCategory": "EducationalApplication",
+      "sameAs": ["https://apps.apple.com/ph/app/commitpath-learn-kotlin/id6816756095"],
+      "creator": { "@id": "https://thesetox.github.io/#stephen" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!--
+THESIS: Stephen's career and products as one release history, the newest release on top. It refuses the hero-plus-project-cards portfolio.
+OWN-WORLD: Changelog grammar on a cool paper ground: calendar version tags, a dated rail, coloured change labels (Shipped and Added green, Changed and Led blue, In progress amber). The two featured releases carry their product's own colour field as cover art. Inter Tight and Manrope, as on siapknow.com (the owner's choice); JetBrains Mono only for tags, dates, file names and counts.
+STORY: A hiring team reads the latest release (AI-first, SiapKnow, Myrna & Judith live on both stores, with the store links right there), checks the proof, scans earlier versions back to 2016, then opens the resume or emails him.
+FIRST VIEWPORT: Left: the name in Inter Tight 600, then the tag 2026.11, Latest and the date, a lead line and three what's-new lines. Right: an Assets panel led by the resume PDF, then email, LinkedIn, GitHub and llms.txt.
+FORM: Release Notes, grounded candidate 5 of 7, seed 605bf916.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+-->
+<a class="skip" href="#main">Skip to content</a>
 
+<header class="top">
+  <div class="wrap top__row">
+    <a class="top__name" href="./">Stephen Siapno</a>
+    <nav class="top__nav" aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="top__mail" href="mailto:stephen.siapno7@gmail.com" aria-label="Email Stephen">
+      <svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5.5h14v9H3zM3.5 6l6.5 5 6.5-5"/></svg>
+    </a>
+    <a class="btn btn--primary btn--sm" href="resources/stephen_siapno_cv.pdf">
+      Resume
+      <svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v10m0 0-4-4m4 4 4-4M4 16h12"/></svg>
+    </a>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="latest" aria-labelledby="name">
+    <div class="wrap latest__grid">
+      <div class="latest__notes">
+        <h1 id="name">Stephen Siapno</h1>
+        <p class="meta">
+          <span class="tag">2026.11</span>
+          <span class="badge badge--latest">Latest</span>
+          <span class="meta__date">Updated <time datetime="2026-11-23">Nov 23, 2026</time></span>
+        </p>
+        <p class="lead">Mobile engineer. I’ve built Android apps since 2016, work in Kotlin Multiplatform today, and build AI-first.</p>
+
+        <h2 class="latest__subhead">What’s new</h2>
+        <ul class="changes changes--hero">
+          <li><span class="label label--added">New</span><span>I run <a class="mark-link" href="#siapknow"><img class="inline-mark" src="media/siapknow-mark.svg" width="22" height="22" alt="">SiapKnow</a>, an AI-first studio. AI agents plan, build, test and release apps; I set the direction and approve every plan and release.</span></li>
+          <li><span class="label label--added">Shipped</span><span><a class="mark-link" href="#myrna-and-judith"><img class="inline-mark" src="media/myrna-judith-icon.webp" width="22" height="22" alt="">Myrna &amp; Judith</a> is live on the <a href="https://apps.apple.com/us/app/myrna-judith/id6767477202">App Store</a> and <a href="https://play.google.com/store/apps/details?id=app.myrnaandjudith">Google Play</a>, built with no manual development.</span></li>
+          <li><span class="label label--changed">Current</span><span>Mobile Engineer at <a href="#eroad">EROAD</a>, on the Mobile Foundation team.</span></li>
+        </ul>
+      </div>
+
+      <aside class="assets" aria-labelledby="assets-title">
+        <h2 id="assets-title" class="assets__title">Assets</h2>
+        <ul class="assets__list">
+          <li>
+            <a class="asset asset--primary" href="resources/stephen_siapno_cv.pdf">
+              <span class="asset__icon"><svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v10m0 0-4-4m4 4 4-4M4 16h12"/></svg></span>
+              <span class="asset__text"><span class="asset__name">Resume</span><span class="asset__file">stephen_siapno_cv.pdf</span></span>
+              <span class="asset__size">98 KB · Nov 2026</span>
+            </a>
+          </li>
+          <li>
+            <a class="asset" href="mailto:stephen.siapno7@gmail.com">
+              <span class="asset__icon"><svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5.5h14v9H3zM3.5 6l6.5 5 6.5-5"/></svg></span>
+              <span class="asset__text"><span class="asset__name">Email</span><span class="asset__file">stephen.siapno7@gmail.com</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="asset" href="https://www.linkedin.com/in/stephen-siapno/">
+              <span class="asset__icon"><svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/><path d="M4 4h12v12H4z"/></svg></span>
+              <span class="asset__text"><span class="asset__name">LinkedIn</span><span class="asset__file">in/stephen-siapno</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="asset" href="https://github.com/TheSetox">
+              <span class="asset__icon"><svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/><path d="M4 4h12v12H4z"/></svg></span>
+              <span class="asset__text"><span class="asset__name">GitHub</span><span class="asset__file">TheSetox</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="asset" href="llms.txt">
+              <span class="asset__icon"><svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.5h7l3 3v12H5z"/><path d="M8 9h4.5M8 12h4.5M8 15h3"/></svg></span>
+              <span class="asset__text"><span class="asset__name">For AI agents</span><span class="asset__file">llms.txt</span></span>
+              <span class="asset__size">Plain text</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="history" aria-labelledby="history-title">
+    <div class="wrap">
+      <div class="history__head">
+        <h2 id="history-title">Version history</h2>
+        <p>Products, roles and writing since 2016, newest first.</p>
+      </div>
+
+      <section class="year" id="work" aria-labelledby="y2026">
+        <h3 class="year__label" id="y2026">2026</h3>
+        <div class="year__entries">
+
+          <article class="entry entry--featured" id="siapknow" data-kind="work">
+            <div class="entry__notes">
+              <h4 class="entry__title"><img class="entry__icon" src="media/siapknow-mark.svg" width="48" height="48" alt="">SiapKnow</h4>
+              <p class="entry__meta"><span class="tag tag--entry">2026.04</span><span class="entry__when"><time datetime="2026-04">Apr 2026</time> – now</span><span class="kind">Studio</span><span class="status status--live">Running</span></p>
+              <p class="entry__lead">My AI-first studio for apps, developer tools and films. Agents do the product, design, development, review, QA and release work; I set the direction, unblock them, and approve each plan and release.</p>
+              <ul class="changes">
+                <li><span class="label label--added">Added</span><span>MainHarness, the delivery harness that turns AI agents into a disciplined team: 17 skills, 5 roles, 12 rule sets and 9 tools.</span></li>
+                <li><span class="label label--added">Added</span><span>Parallel Claude Code sessions, one per role, each with sub-agents: 79 sessions so far, up to 26 at once.</span></li>
+                <li><span class="label label--added">Shipped</span><span>Two pipelines: software, with 291 app pull requests merged and 31 store builds, and video, with 32 Reels and 2 films.</span></li>
+                <li><span class="label label--changed">Changed</span><span>Every release ends with a retrospective that updates the rules and skills: 41 harness updates so far.</span></li>
+              </ul>
+              <p class="shortstat"><span><b>5,341</b> commits</span><span><b>334</b> pull requests merged</span><span><b>1,257</b> sub-agent runs</span><span><b>2,057</b> agent hours</span><span class="shortstat__note">Counted <time datetime="2026-11-18">Nov 18, 2026</time></span></p>
+              <p class="links">
+                <a class="link-out link-out--strong" href="https://siapknow.com/">siapknow.com<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+                <a class="link-out" href="https://siapknow.com/#record">How it’s counted<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+              </p>
+            </div>
+            <figure class="cover cover--siapknow">
+              <img src="media/siapknow-preview.webp" width="1400" height="908" loading="lazy" alt="siapknow.com: the headline “AI workflows, built through process.”, the record of 5,341 commits, 2,057 agent hours and 34 Reels and films, and a live console where Product, Design, Tech Lead, Developer, Reviewer and QA agents take a Myrna &amp; Judith change through four approval gates.">
+              <figcaption class="cover__caption">siapknow.com</figcaption>
+            </figure>
+          </article>
+
+          <article class="entry entry--featured" id="myrna-and-judith" data-kind="work">
+            <div class="entry__notes">
+              <h4 class="entry__title"><img class="entry__icon" src="media/myrna-judith-icon.webp" width="48" height="48" alt="">Myrna &amp; Judith</h4>
+              <p class="entry__meta"><span class="tag tag--entry">2026.04</span><span class="entry__when"><time datetime="2026-04">Apr 2026</time> – now</span><span class="kind">App</span><span class="status status--live">Live on iOS and Android</span></p>
+              <p class="entry__lead"><strong>Know what’s due before payday.</strong> A bill and payday tracker for Filipinos: Judith keeps the bills, Myrna counts down to payday, and Insight sums up the month.</p>
+              <ul class="changes">
+                <li><span class="label label--added">Shipped</span><span>On the App Store and Google Play. It works offline, with no account and no backend.</span></li>
+                <li><span class="label label--added">Added</span><span>Shared UI and logic for Android and iOS with Kotlin Multiplatform and Compose Multiplatform, in 25 modules.</span></li>
+                <li><span class="label label--changed">Built</span><span>With no manual development: AI agents write and test every change through SiapKnow’s process. The first production version took two weeks.</span></li>
+              </ul>
+              <p class="shortstat"><span><b>3,930</b> commits on main</span><span><b>291</b> pull requests merged</span><span><b>6,485</b> tests</span><span><b>31</b> store builds</span><span class="shortstat__note">Counted <time datetime="2026-11-18">Nov 18, 2026</time></span></p>
+              <p class="links">
+                <a class="link-out link-out--strong" href="https://apps.apple.com/us/app/myrna-judith/id6767477202">App Store<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+                <a class="link-out link-out--strong" href="https://play.google.com/store/apps/details?id=app.myrnaandjudith">Google Play<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+                <a class="link-out" href="https://myrnaandjudith.com/">myrnaandjudith.com<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+              </p>
+            </div>
+            <figure class="cover cover--mj">
+              <div class="shots">
+                <img src="media/mj-store-03-mark-all-paid.webp" width="506" height="1100" loading="lazy" alt="App Store screenshot: marking all of a payday's bills as paid in one tap.">
+                <img src="media/mj-store-01-know-whats-due.webp" width="506" height="1100" loading="lazy" alt="App Store screenshot: Myrna says payday is in 8 days and how much to keep aside for the bills before then.">
+                <img src="media/mj-store-04-heavy-months.webp" width="506" height="1100" loading="lazy" alt="App Store screenshot: Insight flags the heavy months ahead.">
+              </div>
+              <figcaption class="cover__caption">App Store screenshots</figcaption>
+            </figure>
+          </article>
+
+          <article class="entry" id="commitpath" data-kind="work">
+            <div class="entry__notes">
+              <h4 class="entry__title"><img class="entry__icon" src="media/commitpath-icon.webp" width="48" height="48" alt="">CommitPath</h4>
+              <p class="entry__meta"><span class="tag tag--entry">2026.09</span><span class="kind">App</span><span class="status status--live">Version 1 live</span><span class="status status--progress">Version 2 in progress</span></p>
+              <p class="entry__lead">A free, offline Kotlin knowledge refresher: flashcards for quick recall, and guided lessons one step at a time.</p>
+              <ul class="changes">
+                <li><span class="label label--progress">In progress</span><span>Version 2, with broader AI flashcards.</span></li>
+              </ul>
+              <p class="links">
+                <a class="link-out link-out--strong" href="https://apps.apple.com/ph/app/commitpath-learn-kotlin/id6816756095">App Store<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+                <a class="link-out" href="https://thesetox.github.io/commitpath-site/">Website<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+              </p>
+            </div>
+          </article>
+
+          <article class="entry" id="kmp-sample-diagrams" data-kind="open">
+            <div class="entry__notes">
+              <h4 class="entry__title">KMP Sample Diagrams</h4>
+              <p class="entry__meta"><span class="tag tag--entry">2026.09</span><span class="kind">Open source</span><span class="status">29 stars · Nov 2026</span></p>
+              <p class="entry__lead">Editable architecture diagrams and runnable Android, iOS and desktop samples for Kotlin Multiplatform.</p>
+              <ul class="changes">
+                <li><span class="label label--changed">Updated</span><span>For the 2026 Kotlin Multiplatform project structure and AGP 9. The first edition dates from 2024.</span></li>
+              </ul>
+              <p class="links">
+                <a class="link-out link-out--strong" href="https://thesetox.github.io/kmp-sample-diagrams/">Interactive viewer<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+                <a class="link-out" href="https://github.com/TheSetox/kmp-sample-diagrams">Source<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+              </p>
+            </div>
+          </article>
+
+          <article class="entry" id="mainharness" data-kind="work">
+            <div class="entry__notes">
+              <h4 class="entry__title">MainHarness</h4>
+              <p class="entry__meta"><span class="tag tag--entry">2026.05</span><span class="entry__when"><time datetime="2026-05">May 2026</time> – now</span><span class="kind">Tool</span><span class="status">Private repository</span></p>
+              <p class="entry__lead">A portable delivery harness for Codex, GitHub Copilot and Claude Code. It gives agents a planning contract, roles, skills, verified commits, visual review and human shipping gates, and it runs every SiapKnow change.</p>
+              <p class="links">
+                <a class="link-out" href="https://siapknow.com/#process">How it works, on siapknow.com<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section class="year" id="experience" aria-labelledby="y2025">
+        <h3 class="year__label" id="y2025">2025</h3>
+        <div class="year__entries">
+          <article class="entry" id="eroad" data-kind="role">
+            <div class="entry__notes">
+              <h4 class="entry__title">EROAD <span class="entry__role">Mobile Engineer</span></h4>
+              <p class="entry__meta"><span class="tag tag--entry">2025.06</span><span class="entry__when"><time datetime="2025-06">Jun 2025</time> – now</span><span class="kind">Role</span><span class="status status--live">Current</span></p>
+              <ul class="changes">
+                <li><span class="label label--added">Added</span><span>Internal Kotlin Multiplatform libraries for telemetry and shared UI, on the Mobile Foundation team.</span></li>
+                <li><span class="label label--changed">Changed</span><span>CI/CD from Azure DevOps to GitHub Actions.</span></li>
+                <li><span class="label label--changed">Improved</span><span>Legacy Android apps, moving them toward a modular architecture.</span></li>
+                <li><span class="label label--added">Added</span><span>AI-assisted workflows with AGENTS.md, skills and MCP.</span></li>
+              </ul>
+              <p class="links"><a class="link-in" href="eroad.html">Full notes</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="year" aria-labelledby="y2024">
+        <h3 class="year__label" id="y2024">2024</h3>
+        <div class="year__entries">
+          <article class="entry" id="digiplus" data-kind="role">
+            <div class="entry__notes">
+              <h4 class="entry__title">Digiplus <span class="entry__role">Android Developer</span></h4>
+              <p class="entry__meta"><span class="tag tag--entry">2024.10</span><span class="entry__when"><time datetime="2024-10">Oct 2024</time> – <time datetime="2025-05">May 2025</time></span><span class="kind">Role</span></p>
+              <ul class="changes">
+                <li><span class="label label--added">Shipped</span><span>Two apps, architected with native Android and Kotlin Multiplatform.</span></li>
+                <li><span class="label label--added">Added</span><span>Jetpack Compose, Ktor, Koin and Kotlin Multiplatform to the team’s stack.</span></li>
+                <li><span class="label label--added">Added</span><span>Reusable Android modules, coding standards, peer reviews and knowledge-sharing sessions.</span></li>
+              </ul>
+              <p class="links"><a class="link-in" href="digiplus.html">Full notes</a></p>
+            </div>
+          </article>
+          <article class="entry" id="kmp-fun-clean-architecture" data-kind="open">
+            <div class="entry__notes">
+              <h4 class="entry__title">KMP Fun Clean Architecture</h4>
+              <p class="entry__meta"><span class="tag tag--entry">2024.03</span><span class="kind">Open source</span><span class="status">13 stars · Nov 2026</span></p>
+              <p class="entry__lead">A Kotlin Multiplatform template and playground for Fluent and Fun Clean Architecture, with its own documentation site.</p>
+              <p class="links">
+                <a class="link-out" href="https://github.com/TheSetox/KMP-Fun-Clean-Architecture">Source<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+                <a class="link-out" href="https://thesetox.github.io/KMP-Playground-Document/introduction.html">Documentation<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="year" aria-labelledby="y2023">
+        <h3 class="year__label" id="y2023">2023</h3>
+        <div class="year__entries">
+          <article class="entry" id="fluent-and-fun" data-kind="open">
+            <div class="entry__notes">
+              <h4 class="entry__title">Fluent and Fun Clean Architecture</h4>
+              <p class="entry__meta"><span class="tag tag--entry">2023</span><span class="kind">Writing</span><span class="status">5 articles</span></p>
+              <p class="entry__lead">A series on ProAndroidDev, also featured on droidcon, about making Clean Architecture in Kotlin clearer with fluent interfaces and functional programming.</p>
+              <p class="links">
+                <a class="link-out link-out--strong" href="https://medium.com/@setoxsiapno/list/fluent-and-fun-clean-architecture-9ef86201becf">Read the series<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+                <a class="link-in" href="fluent-and-fun-clean-architecture-using-kotlin.html">All five articles</a>
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="year" aria-labelledby="y2020">
+        <h3 class="year__label" id="y2020">2020</h3>
+        <div class="year__entries">
+          <article class="entry" id="accenture" data-kind="role">
+            <div class="entry__notes">
+              <h4 class="entry__title">Accenture <span class="entry__role">Android Engineer</span></h4>
+              <p class="entry__meta"><span class="tag tag--entry">2020.02</span><span class="entry__when"><time datetime="2020-02">Feb 2020</time> – <time datetime="2024-10">Oct 2024</time></span><span class="kind">Role</span></p>
+              <ul class="changes">
+                <li><span class="label label--changed">Led</span><span>More than 20 Android and embedded TV apps for an international client.</span></li>
+                <li><span class="label label--added">Shipped</span><span>Four Android modules, from architecture to tests and documentation.</span></li>
+                <li><span class="label label--changed">Led</span><span>Five Android developers, and mentored two engineers.</span></li>
+              </ul>
+              <p class="links"><a class="link-in" href="accenture.html">Full notes</a><a class="link-in" href="projects-in-accenture.html">Projects</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="year" aria-labelledby="y2018">
+        <h3 class="year__label" id="y2018">2018</h3>
+        <div class="year__entries">
+          <article class="entry" id="yondu" data-kind="role">
+            <div class="entry__notes">
+              <h4 class="entry__title">Yondu <span class="entry__role">Android Developer</span></h4>
+              <p class="entry__meta"><span class="tag tag--entry">2018.02</span><span class="entry__when"><time datetime="2018-02">Feb 2018</time> – <time datetime="2019-11">Nov 2019</time></span><span class="kind">Role</span></p>
+              <ul class="changes">
+                <li><span class="label label--changed">Improved</span><span>Data sync, 80% faster, as the sole Android developer on an internal relationship-management app.</span></li>
+                <li><span class="label label--added">Shipped</span><span>10 production features, and a weekly release cadence.</span></li>
+              </ul>
+              <p class="links"><a class="link-in" href="yondu.html">Full notes</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="year" aria-labelledby="y2017">
+        <h3 class="year__label" id="y2017">2017</h3>
+        <div class="year__entries">
+          <article class="entry" id="auspex" data-kind="role">
+            <div class="entry__notes">
+              <h4 class="entry__title">Auspex Corp. <span class="entry__role">Android Developer</span></h4>
+              <p class="entry__meta"><span class="tag tag--entry">2017.04</span><span class="entry__when"><time datetime="2017-04">Apr 2017</time> – <time datetime="2018-01">Jan 2018</time></span><span class="kind">Role</span></p>
+              <ul class="changes">
+                <li><span class="label label--added">Shipped</span><span>An offline-first Android app that stays fully functional without a network.</span></li>
+              </ul>
+              <p class="links"><a class="link-in" href="auspex.html">Full notes</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="year" aria-labelledby="y2016">
+        <h3 class="year__label" id="y2016">2016</h3>
+        <div class="year__entries">
+          <article class="entry" id="mobext" data-kind="role">
+            <div class="entry__notes">
+              <h4 class="entry__title">Mobext <span class="entry__role">Mobile Developer</span></h4>
+              <p class="entry__meta"><span class="tag tag--entry">2016.06</span><span class="entry__when"><time datetime="2016-06">Jun 2016</time> – <time datetime="2017-04">Apr 2017</time></span><span class="kind">Role</span><span class="status">Initial release</span></p>
+              <ul class="changes">
+                <li><span class="label label--added">Shipped</span><span>The Bonifacio Global City iOS app, built from scratch in Xamarin (C#) with MVVM, in three months.</span></li>
+                <li><span class="label label--changed">Maintained</span><span>Android apps for McDonald’s, Krispy Kreme, Yellow Cab, Pancake House and Max’s Restaurant.</span></li>
+              </ul>
+              <p class="links"><a class="link-in" href="mobext-inc.html">Full notes</a></p>
+            </div>
+          </article>
+          <article class="entry" id="education" data-kind="role">
+            <div class="entry__notes">
+              <h4 class="entry__title">BS Information Technology</h4>
+              <p class="entry__meta"><span class="tag tag--entry">2016.05</span><span class="kind">Education</span></p>
+              <p class="entry__lead">University of Pangasinan, PHINMA Education Network.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section class="skills" id="skills" aria-labelledby="skills-title">
+    <div class="wrap">
+      <h2 id="skills-title">Skills</h2>
+      <dl class="deps">
+        <div><dt>Languages</dt><dd>Kotlin, Java</dd></div>
+        <div><dt>Mobile</dt><dd>Android SDK, Jetpack Compose, Kotlin Multiplatform, Compose Multiplatform</dd></div>
+        <div><dt>Architecture</dt><dd>MVVM, MVI, Clean Architecture, modular architecture</dd></div>
+        <div><dt>Libraries</dt><dd>Coroutines, Flow, Koin, Hilt, Dagger, Ktor, Retrofit, OkHttp, Room, RxJava</dd></div>
+        <div><dt>Quality</dt><dd>Unit testing, Mockito, Espresso, Appium, MobSF, SonarQube</dd></div>
+        <div><dt>Delivery</dt><dd>Gradle, Git, GitHub Actions, Azure DevOps, Firebase, Sentry</dd></div>
+        <div><dt>AI-first</dt><dd>Claude Code, Codex, GitHub Copilot, MCP, agent harnesses and skills</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="wrap contact__grid">
+      <div>
+        <h2 id="contact-title">Contact</h2>
+        <p class="contact__lead">Hiring for mobile or AI-first engineering? I’d like to hear about it.</p>
+        <p class="contact__where">Based in the Philippines.</p>
+      </div>
+      <div class="contact__actions">
+        <a class="contact__email" href="mailto:stephen.siapno7@gmail.com">stephen.siapno7@gmail.com</a>
+        <p class="links">
+          <a class="btn btn--primary" href="resources/stephen_siapno_cv.pdf">Resume (PDF)<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v10m0 0-4-4m4 4 4-4M4 16h12"/></svg></a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/stephen-siapno/">LinkedIn<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+          <a class="btn btn--ghost" href="https://github.com/TheSetox">GitHub<svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 13 13 7m-5 0h5v5"/></svg></a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__row">
+    <p>© 2026 Stephen Siapno</p>
+    <p class="foot__links">
+      <a href="notes.html">Earlier projects and notes</a>
+      <a href="llms.txt">llms.txt, for AI agents</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# GitHub Pages (legacy Jekyll build) serves this repo's files as they are.
+# Keep the product and design notes, and the local tools, off the public site.
+exclude:
+  - PRODUCT.md
+  - DESIGN.md
+  - README.md
+  - tools
+  - .impeccable
