@@ -1,5 +1,25 @@
-/* A concise portfolio: four destinations, one reading column, no monogram. */
-:root { --portfolio-measure: 760px; }
+/* A concise portfolio: four destinations, one reading column, no monogram.
+   2026-11 redesign (proposal A): a hiring-team home with a resume button, a record grid,
+   featured-work cards and an experience timeline, all inside Writerside's article model. */
+:root {
+  --portfolio-measure: 760px;
+  --pf-ink: #141a26;
+  --pf-muted: #5a6273;
+  --pf-line: #e3e6ec;
+  --pf-tile: #f5f7fa;
+  --pf-accent: #235bd7;
+  --pf-accent-ink: #ffffff;
+  --pf-shipped: #13804b;
+}
+.theme-dark {
+  --pf-ink: #eef1f6;
+  --pf-muted: #a9b0bf;
+  --pf-line: #343a46;
+  --pf-tile: #1d222b;
+  --pf-accent: #96b8ff;
+  --pf-accent-ink: #0d1424;
+  --pf-shipped: #6fd39c;
+}
 .app > .layout--columns { flex-direction: column; }
 .app .app__sidebar {
   display: block;
@@ -84,6 +104,91 @@
 .article img { max-width: 100%; height: auto; }
 .article img[src*="myrna-"] { max-width: min(280px, 100%); border-radius: 12px; }
 a:focus-visible, button:focus-visible { outline: 3px solid currentColor; outline-offset: 4px; }
+/* Role line under the name: the first bold line of an article. */
+.article > p:first-of-type > .control:only-child {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--pf-muted);
+  letter-spacing: 0.01em;
+}
+/* Action rows: a paragraph that carries the resume becomes a row of buttons.
+   font-size: 0 hides the middle-dot separators, which are bare text nodes. */
+.article p:has(> a[href$=".pdf"]) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 0;
+  margin-top: 24px;
+}
+.article p:has(> a[href$=".pdf"]) > a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border: 1px solid var(--pf-line);
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--pf-ink);
+  text-decoration: none;
+}
+.article p:has(> a[href$=".pdf"]) > a[href$=".pdf"] {
+  background: var(--pf-accent);
+  border-color: var(--pf-accent);
+  color: var(--pf-accent-ink);
+}
+.article p:has(> a[href$=".pdf"]) > a:hover { border-color: var(--pf-accent); }
+/* The record: four counted numbers as ruled rows, the number first. */
+section.chapter:has(> h2#the-record, > .title > h2#the-record) ul.list {
+  padding: 0;
+  margin: 16px 0 8px;
+  list-style: none;
+  border-top: 1px solid var(--pf-line);
+}
+section.chapter:has(> h2#the-record, > .title > h2#the-record) ul.list > li {
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--pf-line);
+  list-style: none;
+}
+section.chapter:has(> h2#the-record, > .title > h2#the-record) ul.list > li::before,
+section.chapter:has(> h2#the-record, > .title > h2#the-record) ul.list > li::marker { content: none; }
+section.chapter:has(> h2#the-record, > .title > h2#the-record) ul.list > li p { margin: 0; color: var(--pf-muted); }
+section.chapter:has(> h2#the-record, > .title > h2#the-record) ul.list > li .control {
+  display: inline-block;
+  min-width: 4.2em;
+  margin-right: 8px;
+  font-size: 20px;
+  color: var(--pf-ink);
+  font-variant-numeric: tabular-nums;
+}
+/* Featured work: each project is a card. */
+section.chapter:has(> h2#featured-work, > .title > h2#featured-work) > section.chapter {
+  margin: 16px 0;
+  padding: 4px 22px 6px;
+  border: 1px solid var(--pf-line);
+  border-radius: 16px;
+}
+section.chapter:has(> h2#featured-work, > .title > h2#featured-work) > section.chapter h3 { margin-top: 18px; font-size: 20px; }
+/* Experience: roles read as a timeline. */
+[data-id="Experience"] .article > section.chapter:has(> h2, > .title > h2):not(:has(#education, #skills)) {
+  position: relative;
+  padding-left: 20px;
+  border-left: 1px solid var(--pf-line);
+}
+[data-id="Experience"] .article > section.chapter:has(> h2, > .title > h2):not(:has(#education, #skills))::before {
+  content: "";
+  position: absolute;
+  left: -5.5px;
+  top: 8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--pf-accent);
+}
+.article h3 { font-size: 19px; line-height: 1.35; }
+.article .table-wrapper table { width: 100%; }
 @media (max-width: 700px) {
   .app .app__toc { gap: 22px; padding-inline: 20px; }
   .app .layout--container-content { padding-inline: 20px; }
