@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'none'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; base-uri 'self'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-k4JmnIRKo4prdqHyQKJsLR6k6a4AsQz148jglb1ETkY='; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; base-uri 'self'; form-action 'none'">
 <title>Stephen Siapno · Mobile engineer, building AI-first</title>
 <meta name="description" content="Stephen Siapno is a mobile engineer (Android since 2016, Kotlin Multiplatform) who builds AI-first. He runs SiapKnow, an AI-first studio whose app Myrna &amp; Judith is live on the App Store and Google Play.">
 <link rel="canonical" href="https://thesetox.github.io/">
@@ -87,7 +87,7 @@
 <!--
 THESIS: Stephen's career and products as one release history, the newest release on top. It refuses the hero-plus-project-cards portfolio.
 OWN-WORLD: Changelog grammar on a cool paper ground: calendar version tags, a dated rail, coloured change labels (Shipped and Added green, Changed and Led blue, In progress amber). The two featured releases carry their product's own colour field as cover art. Inter Tight and Manrope, as on siapknow.com (the owner's choice); JetBrains Mono only for tags, dates, file names and counts.
-STORY: A hiring team reads the latest release (AI-first, SiapKnow, Myrna & Judith live on both stores, with the store links right there), checks the proof, scans earlier versions back to 2016, then opens the resume or emails him.
+STORY: A hiring team reads the latest release (AI-first, SiapKnow, Myrna & Judith live on both stores, with the store links right there), checks the proof, scans earlier versions back to 2016 (filtering to products, roles or writing; Work and Experience in the menu pick the filter), then opens the resume or emails him.
 FIRST VIEWPORT: Left: the name in Inter Tight 600, then the tag 2026.11, Latest and the date, a lead line and three what's-new lines. Right: an Assets panel led by the resume PDF, then email, LinkedIn, GitHub and llms.txt.
 FORM: Release Notes, grounded candidate 5 of 7, seed 605bf916.
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
@@ -179,6 +179,13 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       <div class="history__head">
         <h2 id="history-title">Version history</h2>
         <p>Products, roles and writing since 2016, newest first.</p>
+        <fieldset class="filter">
+          <legend class="sr-only">Show</legend>
+          <input type="radio" name="kind" id="kind-all" checked><label for="kind-all">All</label>
+          <input type="radio" name="kind" id="kind-work"><label for="kind-work">Products</label>
+          <input type="radio" name="kind" id="kind-role"><label for="kind-role">Roles</label>
+          <input type="radio" name="kind" id="kind-open"><label for="kind-open">Open source &amp; writing</label>
+        </fieldset>
       </div>
 
       <section class="year" id="work" aria-labelledby="y2026">
@@ -458,6 +465,18 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   </section>
 
 </main>
+
+<script>
+document.addEventListener("click", function (event) {
+  var link = event.target.closest('a[href^="#"]');
+  if (!link) return;
+  var target = document.getElementById(decodeURIComponent(link.hash.slice(1)));
+  if (!target || !target.closest(".history")) return;
+  var pick = { work: "kind-work", experience: "kind-role" }[target.id];
+  if (pick) { document.getElementById(pick).checked = true; return; }
+  if (!target.offsetParent) document.getElementById("kind-all").checked = true;
+});
+</script>
 
 <footer class="foot">
   <div class="wrap foot__row">

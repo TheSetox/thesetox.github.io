@@ -299,7 +299,7 @@ The site is one version history. Stephen's career and products read as releases 
 
 The page is text-first and ruled, at the density of a good release page: 1px rules, measured line lengths, and colour that carries meaning rather than decoration. Cobalt is the only action colour; green, blue and amber are change meaning. Pictorial colour appears in exactly two places, the covers of the two featured releases, each in its own product's identity: SiapKnow's own site, as a screenshot on SiapKnow's field, and Myrna & Judith's leaf field with fanned App Store screenshots.
 
-It is static and script-free. Light and dark both follow `prefers-color-scheme`, with no toggle, and motion is two CSS moments, both off under reduced motion: the Latest badge stamps in once, and rail nodes light as their release scrolls in. The 404 and redirect pages reuse `site.css`; the Writerside archive pages keep their own look and sit outside this system.
+It is static. Its one script, allowed in the CSP by its SHA-256 hash, only makes the section and in-page links work with the history filter; everything else is CSS. Light and dark both follow `prefers-color-scheme`, with no toggle, and motion is two CSS moments, both off under reduced motion: the Latest badge stamps in once, and rail nodes light as their release scrolls in. The 404 and redirect pages reuse `site.css`; the Writerside archive pages keep their own look and sit outside this system.
 
 **Key Characteristics:**
 - One release history, newest first; work enters as an entry on the rail, never as a card grid.
@@ -307,7 +307,7 @@ It is static and script-free. Light and dark both follow `prefers-color-scheme`,
 - Cool paper, navy ink and one cobalt action colour; status hues only where they mean something.
 - Flat and ruled: 1px rules, tonal tints and an inverted band instead of elevation.
 - Product colour lives only inside the two featured covers.
-- Both colour schemes follow the system; there is no JavaScript.
+- Both colour schemes follow the system. The only JavaScript is the filter helper: Work in the menu selects Products, Experience selects Roles, and a link to a release the filter hides resets it to All.
 
 ## Colors
 
@@ -456,6 +456,10 @@ Flat. Page surfaces cast no shadows; depth is tonal: the white Assets panel on p
 - **Entry anatomy:** title (optional 44px app icon, optional role), meta row, lead (17.5px Slate Ink, bold in Navy Ink), change lines, shortstat, links row.
 - **Motion:** as an entry scrolls in, its node grows from half size, and a live node fills from hollow to green (a scroll-driven `view()` timeline from entry 0% to cover 30%), only where supported.
 
+### History filter
+- **Chips:** All, Products, Roles, and Open source & writing, as radio inputs styled as 44px pills: a 1px Strong Rule border, 15px Slate Ink 600 text, 16px side padding, 8px apart. The selected chip fills with Navy Ink and Paper text. The focus ring goes on the chip's label.
+- **Behaviour:** pure CSS with `:has()`. A chip hides entries of other kinds and any year left empty. Work and Experience in the menu select Products and Roles; a link to a hidden release resets the filter to All.
+
 ### Shortstat lines
 - JetBrains Mono 13.5px in Pewter, counts in 600 Navy Ink, items wrapping with 4px by 18px gaps, 18px below the change lines. Each line ends with the date it was counted ("Counted Nov 18, 2026").
 
@@ -501,4 +505,4 @@ Flat. Page surfaces cast no shadows; depth is tonal: the white Assets panel on p
 - **Don't** give page surfaces drop shadows; borders may be 1px inset rings, and the only cast shadow is the screenshot lift inside the Myrna & Judith cover.
 - **Don't** set Inter Tight headings above 600, or use Manrope for anything but the header name.
 - **Don't** make a status chip or rail node green for anything that isn't live now; green chips mean live, running or current.
-- **Don't** add a theme toggle or any JavaScript; both schemes follow `prefers-color-scheme`, and the home page's CSP sets `script-src 'none'`.
+- **Don't** add a theme toggle or more JavaScript; both schemes follow `prefers-color-scheme`, and the home page's CSP allows only the filter helper, by its SHA-256 hash. If that script changes, update the hash in the CSP.

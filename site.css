@@ -294,6 +294,28 @@ h1 {
   .history__head { padding-left: calc(var(--rail) + 32px); }
 }
 
+/* The filter: change-type chips over the history. Pure CSS; the page's one script only
+   makes the menu and in-page links pick a filter that shows their target. */
+.filter { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 0; padding: 0; border: 0; }
+.filter input { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.filter label {
+  display: inline-flex; align-items: center;
+  min-height: 44px; padding: 0 16px;
+  border: 1px solid var(--rule-strong); border-radius: 999px;
+  font-size: 15px; font-weight: 600; color: var(--ink-2);
+  cursor: pointer; user-select: none;
+  transition: background-color 0.2s var(--ease-out), color 0.2s var(--ease-out), border-color 0.2s var(--ease-out);
+}
+.filter label:hover { border-color: var(--ink-2); }
+.filter input:checked + label { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.filter input:focus-visible + label { outline: 2px solid var(--action); outline-offset: 2px; }
+.history:has(#kind-work:checked) .entry:not([data-kind="work"]),
+.history:has(#kind-role:checked) .entry:not([data-kind="role"]),
+.history:has(#kind-open:checked) .entry:not([data-kind="open"]) { display: none; }
+.history:has(#kind-work:checked) .year:not(:has([data-kind="work"])),
+.history:has(#kind-role:checked) .year:not(:has([data-kind="role"])),
+.history:has(#kind-open:checked) .year:not(:has([data-kind="open"])) { display: none; }
+
 .year + .year { margin-top: 20px; }
 .year__label {
   padding: 4px 0 2px;
